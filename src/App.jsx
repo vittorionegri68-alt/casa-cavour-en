@@ -80,7 +80,7 @@ function Nav() {
     window.addEventListener("scroll", h);
     return () => window.removeEventListener("scroll", h);
   }, []);
-  const links = ["Appartement", "Locatie", "Ervaringen", "Recensies"];
+  const links = ["Apartment", "Location", "Experiences", "Reviews"];
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
@@ -199,7 +199,7 @@ function Hero() {
               Experience Romagna<br /><span style={{ color: C.gold, fontStyle: "italic" }}>like a local.</span>
             </h1>
             <p style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(24px)", transition: "all 0.85s ease 0.46s", fontSize: "clamp(0.93rem,1.8vw,1.08rem)", color: C.textMid, lineHeight: 1.82, margin: "0 0 2rem", fontFamily: "'DM Sans',sans-serif" }}>
-              A design apartment in the historic centre of Bertinoro — the <em style={{ color: C.text }}>"Balcony of Romagna"</em>. For couples, professionals and travellers seeking authenticity, comfort and a genuine connection with the region.
+              A design apartment in the historic centre of Bertinoro, the <em style={{ color: C.text }}>"Balcony of Romagna"</em>. For couples, professionals and travellers seeking authenticity, comfort and a genuine connection with the region.
             </p>
             <div style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(24px)", transition: "all 0.85s ease 0.6s", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a href="https://airbnb.com/h/casacavour-bertinoro" target="_blank" rel="noopener noreferrer"
@@ -277,7 +277,7 @@ function Apartment() {
                 Your home<br /><span style={{ color: C.gold, fontStyle: "italic" }}>from day one.</span>
               </h2>
               <p style={{ fontSize: "0.94rem", color: C.textMid, lineHeight: 1.85, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.2rem" }}>
-                <strong style={{ color: C.text }}>Casa Cavour</strong> is a fully furnished apartment in the historic centre of Bertinoro — a medieval hilltop village in the Romagna hills, nicknamed the <em>"Balcony of Romagna"</em>. Ideal for couples, remote workers and families of up to 4 guests.
+                <strong style={{ color: C.text }}>Casa Cavour</strong> is a fully furnished apartment in the historic centre of Bertinoro, a medieval hilltop village in the Romagna hills, nicknamed the <em>"Balcony of Romagna"</em>. Ideal for couples, remote workers and families of up to 4 guests.
               </p>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.6px", background: C.border, marginBottom: "2rem" }}>
                 {[
@@ -364,7 +364,7 @@ function Location() {
               <h3 style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.72rem", letterSpacing: "0.2em", textTransform: "uppercase", color: C.textSoft, marginBottom: "1.1rem" }}>WHAT TO DO NEARBY</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.6px", background: C.border }}>
                 {[
-                  { icon:"🍷", title:"Wine Tour in Romagna", desc:"Albana DOCG and Sangiovese — the vineyards are 10 minutes away. Historic family wineries." },
+                  { icon:"🍷", title:"Wine Tour in Romagna", desc:"Albana DOCG and Sangiovese, the vineyards are 10 minutes away. Historic family wineries." },
                   { icon:"🚴", title:"Cycling & Hiking Trails", desc:"Cycle routes through medieval villages, olive groves and panoramic Adriatic views." },
                   { icon:"🌅", title:"Sunset on the Balcony", desc:"Bertinoro's panoramic terrace offers one of the most stunning sunsets in Romagna, with views to the Adriatic." },
                   { icon:"🍝", title:"Romagnola Cuisine", desc:"Piadina, tagliatelle al ragu, squacquerone. Trattorias 5 min away where the locals eat." },
@@ -422,7 +422,7 @@ function HowItWorks() {
             { n:"01", t:"Search & Book", b:"Find us on Airbnb. Read reviews from guests who have already experienced Romagna from here." },
             { n:"02", t:"We Confirm", b:"Receive full access details, local tips and personalised suggestions for your stay." },
             { n:"03", t:"Self Check-in", b:"Arrive whenever you like. The keys are waiting for you. No queues, no reception." },
-            { n:"04", t:"Live like a local", b:"Morning market, hilltop aperitivo, an unmarked winery. This is your Bertinoro." },
+            { n:"04", t:"Live like a local", b:"Morning market, hilltop aperitivo, an family winery. This is your Bertinoro." },
           ].map(({n,t,b}) => (
             <Reveal key={n} delay={parseInt(n)*60}>
               <div style={{ padding: "2rem 1.5rem", textAlign: "center" }}>
@@ -446,7 +446,7 @@ function Testimonials() {
   const reviews = [
     { q:"We came for a weekend and stayed a week. The apartment is stunning and Bertinoro is an incredible discovery. We have told everyone about it.", n:"Sophie & Marc", o:"Paris, France", s:5 },
     { q:"As a digital nomad I needed reliable WiFi, a proper workspace and beauty around me. Casa Cavour delivered everything. The most productive month of my life.", n:"James R.", o:"London, UK", s:5 },
-    { q:"It is not just accommodation — it is an experience. The host tips took us to a family winery that was not even on Google Maps.", n:"Claudia M.", o:"Munich, Germany", s:5 },
+    { q:"It is not just accommodation it is an experience. The host tips took us to a family winery that was not even on Google Maps.", n:"Claudia M.", o:"Munich, Germany", s:5 },
     { q:"The perfect romantic weekend. Bertinoro at night is magical, and having our own apartment with a kitchen made everything even more special.", n:"Luca & Sara", o:"Milan, Italy", s:5 },
   ];
   return (
@@ -511,7 +511,7 @@ function About() {
               A hidden gem,<br /><span style={{ color: C.gold, fontStyle: "italic" }}>lovingly cared for.</span>
             </h2>
             <p style={{ fontSize: "0.94rem", color: C.textMid, lineHeight: 1.85, fontFamily: "'DM Sans',sans-serif", marginBottom: "1rem" }}>
-              Casa Cavour is located on Via Cavour, one of the oldest streets in Bertinoro — a medieval hilltop village nicknamed the <em>"Balcony of Romagna"</em> for its panoramic views stretching to the Adriatic.
+              Casa Cavour is located on Via Cavour, one of the oldest streets in Bertinoro, a medieval hilltop village nicknamed the <em>"Balcony of Romagna"</em> for its panoramic views stretching to the Adriatic.
             </p>
             <p style={{ fontSize: "0.94rem", color: C.textMid, lineHeight: 1.85, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.75rem" }}>
               The apartment was designed to give discerning travellers a home worthy of the region. A holiday apartment in the historic centre of Bertinoro, near Cesena, ideal for romantic weekend breaks in the Romagna hills.
