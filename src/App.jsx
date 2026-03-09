@@ -72,7 +72,6 @@ function DiagDivider({ topColor, botColor, flip = false }) {
 }
 
 // ── Nav ───────────────────────────────────────────────────────────────────────
-
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -81,7 +80,7 @@ function Nav() {
     window.addEventListener("scroll", h);
     return () => window.removeEventListener("scroll", h);
   }, []);
-  const links = ["Apartment", "Location", "Experiences", "Reviews"];
+  const links = ["Appartement", "Locatie", "Ervaringen", "Recensies"];
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
@@ -108,7 +107,7 @@ function Nav() {
             style={{ background: C.gold, color: "#fff", padding: "0.5rem 1.3rem", fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", transition: "background 0.2s" }}
             onMouseEnter={e => e.currentTarget.style.background = "#8a6520"}
             onMouseLeave={e => e.currentTarget.style.background = C.gold}>
-            BOOK NOW
+            PRENOTA ORA
           </a>
           {/* Language switcher — desktop */}
           <div style={{ display: "flex", gap: "0.25rem", borderLeft: `1px solid ${C.border}`, paddingLeft: "1rem" }}>
@@ -124,6 +123,13 @@ function Nav() {
               onMouseEnter={e => e.currentTarget.style.color = C.gold}
               onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>
               EN
+            </a>
+            <span style={{ color: C.border, fontSize: "0.7rem", alignSelf: "center" }}>|</span>
+            <a href="https://casa-cavour-nl.vercel.app"
+              style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
+              onMouseEnter={e => e.currentTarget.style.color = C.gold}
+              onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>
+              NL
             </a>
           </div>
         </div>
@@ -141,10 +147,11 @@ function Nav() {
               {l}
             </a>
           ))}
-          <a href="https://airbnb.com/h/casacavour-bertinoro" target="_blank" rel="noopener noreferrer"
-            style={{ display: "inline-block", marginTop: "1rem", background: C.gold, color: "#fff", padding: "0.7rem 1.75rem", fontWeight: 800, fontSize: "0.82rem", letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none" }}>
-            BOOK NOW
-          </a>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: "1rem" }}>
+            <a href="https://airbnb.com/h/casacavour-bertinoro" target="_blank" rel="noopener noreferrer"
+              style={{ display: "inline-block", background: C.gold, color: "#fff", padding: "0.7rem 1.75rem", fontWeight: 800, fontSize: "0.82rem", letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none" }}>
+              BOOK NOW
+            </a>
             {/* Language switcher — mobile */}
             <div style={{ display: "flex", gap: "0.25rem", alignItems: "center" }}>
               <a href="https://casa-cavour.vercel.app"
@@ -153,12 +160,12 @@ function Nav() {
               </a>
               <span style={{ color: C.border, fontSize: "0.75rem" }}>|</span>
               <a href="https://casa-cavour-en.vercel.app"
-                style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
+                style={{ color: C.gold, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
                 EN
               </a>
               <span style={{ color: C.border, fontSize: "0.75rem" }}>|</span>
               <a href="https://casa-cavour-nl.vercel.app"
-                style={{ color: C.gold, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
+                style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
                 NL
               </a>
             </div>
@@ -169,7 +176,6 @@ function Nav() {
     </nav>
   );
 }
-
 // ── Hero ──────────────────────────────────────────────────────────────────────
 function Hero() {
   const [loaded, setLoaded] = useState(false);
