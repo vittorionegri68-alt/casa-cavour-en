@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { posts } from "./posts.jsx";
 import poster4 from "./assets/poster4.jpg";
 import poster3 from "./assets/poster3.jpg";
 import poster6 from "./assets/poster6.jpg";
@@ -14,7 +13,7 @@ import room8 from "./assets/rooms/Giardino_2.jpg";
 import room9 from "./assets/rooms/Panorama_1.jpg";
 import room10 from "./assets/rooms/Panorama_2.jpg";
 import room11 from "./assets/rooms/Panorama_3.jpg";
-import bertinoro from "./assets/rooms/Logo.jpg";;
+import bertinoro from "./assets/rooms/Logo.jpg";
 
 const IMG = {
   room1, room2, room3, room4, room5, room6,
