@@ -1,6 +1,3 @@
- en · JS
-Copy
-
 // ─────────────────────────────────────────────────────────────────────────────
 // posts.js — Blog articles for Casa Cavour (English version)
 //
