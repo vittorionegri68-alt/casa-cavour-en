@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { posts } from "./posts.jsx";
 import poster4 from "./assets/poster4.jpg";
 import poster3 from "./assets/poster3.jpg";
 import poster6 from "./assets/poster6.jpg";
