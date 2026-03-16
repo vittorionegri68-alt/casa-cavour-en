@@ -566,7 +566,7 @@ function Blog() {
         {open === null && (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "1.5rem", alignItems: "stretch", }} className="blog-grid">
                 
-{visibili.map((, i) => ( <post key={s.id} s={s} delay={i * 80} />
+{visibili.map((, i) => ( <Reveal key={post.id} s={post} delay={i * 80} />
                 ))}
               </div>
                 <div
