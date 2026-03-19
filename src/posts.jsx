@@ -8,6 +8,66 @@
 // ─────────────────────────────────────────────────────────────────────────────
  
 export const posts = [
+ // ── NEW POST — Giro d'Italia Cervia 2026 ──────────────────────────────────
+  // Add this block to the posts[] array in src/posts.js
+  // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
+  {
+    id: "giro-italia-cervia-2026",
+    titolo: "The Giro d'Italia comes to Cervia: experience the stage from Casa Cavour",
+    data: "2026-04-15",
+    categoria: "Events",
+    sommario: "On 17 May 2026 Cervia hosts the start of stage 9 of the Giro d'Italia 2026. Just 30 minutes from Casa Cavour, this is an event not to be missed. Download our free posters.",
+    contenuto: [
+      {
+        tipo: "paragrafo",
+        testo: "On 17 May 2026 the Romagna Riviera turns pink. Cervia hosts the start of stage 9 of the 109th edition of the Giro d'Italia — 184 km of great cycling with a summit finish at Corno alle Scale in the Bolognese Apennines. A stage that promises to be decisive for the general classification."
+      },
+      {
+        tipo: "titoletto",
+        testo: "Stage details"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "The official start (km 0) will be from Piazza Andrea Costa, with the town route passing through via Nazario Sauro, the Lungomare d'Annunzio, viale Roma and via Martiri Fantini before leaving Cervia towards the Apennines. This is Cervia's fifth appearance in the Giro — a historic milestone that the city will celebrate by turning pink, coinciding with the historic Sposalizio del Mare festival."
+      },
+      {
+        tipo: "titoletto",
+        testo: "Casa Cavour: the perfect base for the event"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "Bertinoro is just 30 minutes from Cervia by car. Staying at Casa Cavour means having a comfortable, elegant and authentic base to experience this extraordinary event without the stress of finding accommodation on the coast — where prices will skyrocket in the days around the stage."
+      },
+      {
+        tipo: "paragrafo",
+        testo: "You can attend the start in Cervia on the morning of 17 May, soak up the pink atmosphere of the Giro caravan, and return in the evening to the silence of the Romagna hills with a glass of Sangiovese. The best of both worlds."
+      },
+      {
+        tipo: "titoletto",
+        testo: "Download our free posters"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "To celebrate this event we have created two dedicated posters for the Cervia - Corno alle Scale stage. They are completely free to download — a keepsake to save or print for the occasion."
+      },
+      {
+        tipo: "download",
+        label1: "Download Poster 1",
+        src1: "/Cervia_1.png",
+        label2: "Download Poster 2",
+        src2: "/Cervia_2.png"
+      },
+      {
+        tipo: "titoletto",
+        testo: "Practical information"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "Date: Sunday 17 May 2026. Start: Piazza Andrea Costa, Cervia (RA). Finish: Corno alle Scale (BO). Distance: 184 km. Stage: 9th of the 109th edition of the Giro d'Italia."
+      }
+    ],
+    attivo: true,
+  },
   {
     id: "5-things-to-do-bertinoro",
     titolo: "5 things to do in Bertinoro in a weekend",
