@@ -11,6 +11,30 @@ export const posts = [
  // ── NEW POST — Giro d'Italia Cervia 2026 ──────────────────────────────────
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
+{
+  id: "easter-romagna-2026",
+  titolo: "Easter in Romagna 2026: hilltop villages, quiet coast and traditions",
+  data: "2026-04-01",
+  categoria: "itineraries",
+  sommario: "Easter and spring long weekends are the perfect time to discover Romagna off-season. Between medieval hilltop villages, a still-quiet Riviera and the first local festivals, here's how to experience an authentic weekend between Bertinoro, Ravenna and the Romagna coast.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "April 2026 brings Easter and the first full spring weekends. Romagna wakes up after winter, but without summer crowds: hilltop villages are still silent, the Riviera offers seaside walks in fresh air, and osterias fill with the scent of wild herbs and first asparagus. It's the best time for those seeking an authentic experience, far from high-season rhythms." },
+    
+    { tipo: "titoletto", testo: "Bertinoro and the hills: vineyards and silent villages" },
+    { tipo: "paragrafo", testo: "Bertinoro in April is a small gem. Vineyards start budding, historic center alleys are deserted at sunset, and the Rocca Malatestiana fortress offers views stretching to the sea. From here, walking or cycling routes lead to Polenta, Fratta Terme and surrounding hills. Easter weekend is perfect for a walk to the Santuario della Madonna del Lago (45 minutes on foot) or lunch at one of the historic osterias in town. Practical tip: avoid Saturday afternoon if you want places to yourself." },
+    
+    { tipo: "titoletto", testo: "Ravenna: mosaics, pine forests and Byzantine Easter" },
+    { tipo: "paragrafo", testo: "Ravenna in April is less crowded than summer, but offers the same intensity. Mosaics at San Vitale and the Mausoleum of Galla Placidia seem to shine brighter with spring light coming through windows. The Easter period also brings sacred music concerts in basilicas and craft markets in cloisters. After cultural visits, a walk in the Pineta di Classe (10 minutes by car from center) is a must: silent, scented with pine resin, perfect for those seeking peace. Useful info: museums are open even on Easter Sunday and Monday, combined ticket €12 for 5 UNESCO monuments." },
+    
+    { tipo: "titoletto", testo: "Romagna Riviera off-season: the sea without beach umbrellas" },
+    { tipo: "paragrafo", testo: "Cesenatico, Rimini, Riccione in April are unrecognizable. No beach umbrellas, few cars, just open sea and empty beaches. It's the best time for a bike ride along the seafront, a walk at Cesenatico's Porto Canale (with historic boats still moored) or a sunset aperitivo without booking. The Easter long weekend brings some events – craft markets, concerts in historic centers – but nothing like summer chaos. Practical advice: many seaside restaurants reopen exactly at Easter, but booking for Sunday lunch is recommended." },
+    
+    { tipo: "titoletto", testo: "What to bring home: seasonal products" },
+    { tipo: "paragrafo", testo: "April in Romagna means wild asparagus, field herbs, first fresh squacquerone cheese, and just-bottled white wines. Farmers' markets (Cesena on Wednesday and Saturday mornings, Bertinoro on Sunday) are the right place to stock up. If you pass through Longiano or Bertinoro, stop at an open winery: many offer tastings even without booking, especially on holiday weekends." },
+  ],
+  attivo: true,
+},
+ 
 
 {
   id: "April in Romagna",
