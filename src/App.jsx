@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import { qanda } from "./qanda.jsx";
 import { posts } from "./posts.jsx";
-import poster4 from "./assets/poster4.jpg";
 import poster3 from "./assets/poster3.jpg";
 import poster6 from "./assets/poster6.jpg";
 import room1 from "./assets/rooms/Cucina_1.jpg";
@@ -22,7 +22,6 @@ const IMG = {
   bertinoro,
 };
 
-// ── Scroll reveal hook ────────────────────────────────────────────────────────
 function useReveal(threshold = 0.12) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
@@ -48,7 +47,6 @@ function Reveal({ children, delay = 0, className = "" }) {
   );
 }
 
-// ── Color tokens ──────────────────────────────────────────────────────────────
 const C = {
   bg:       "#faf8f4",
   bg2:      "#f3efe8",
@@ -62,7 +60,6 @@ const C = {
   shadow:   "0 4px 24px rgba(26,22,18,0.08)",
 };
 
-// ── Diagonal divider ──────────────────────────────────────────────────────────
 function DiagDivider({ topColor, botColor, flip = false }) {
   return (
     <div style={{ background: botColor, lineHeight: 0 }}>
@@ -73,7 +70,6 @@ function DiagDivider({ topColor, botColor, flip = false }) {
   );
 }
 
-// ── Nav ───────────────────────────────────────────────────────────────────────
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -82,8 +78,8 @@ function Nav() {
     window.addEventListener("scroll", h);
     return () => window.removeEventListener("scroll", h);
   }, []);
-  const links = ["Apartment", "Location", "Experiences", "Reviews", "Blog"];
-  const ids    = ["apartment", "location", "experiences", "reviews", "blog"];
+  const links = ["Apartment", "Location", "Experiences", "Reviews", "Blog", "Q&A"];
+  const ids   = ["apartment", "location", "experiences", "reviews", "blog", "qa"];
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
@@ -112,28 +108,14 @@ function Nav() {
             onMouseLeave={e => e.currentTarget.style.background = C.gold}>
             BOOK NOW
           </a>
-          {/* Language switcher — desktop */}
           <div style={{ display: "flex", gap: "0.25rem", borderLeft: `1px solid ${C.border}`, paddingLeft: "1rem" }}>
-            <a href="https://casa-cavour.vercel.app"
-              style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
-              onMouseEnter={e => e.currentTarget.style.color = C.gold}
-              onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>
-              IT
-            </a>
+            <a href="https://www.casa-cavour.com/" style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
+              onMouseEnter={e => e.currentTarget.style.color = C.gold} onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>IT</a>
             <span style={{ color: C.border, fontSize: "0.7rem", alignSelf: "center" }}>|</span>
-            <a href="https://casa-cavour-en.vercel.app"
-              style={{ color: C.gold, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
-              onMouseEnter={e => e.currentTarget.style.color = C.gold}
-              onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>
-              EN
-            </a>
+            <a href="https://en.casa-cavour.com/" style={{ color: C.gold, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}>EN</a>
             <span style={{ color: C.border, fontSize: "0.7rem", alignSelf: "center" }}>|</span>
-            <a href="https://casa-cavour-nl.vercel.app"
-              style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
-              onMouseEnter={e => e.currentTarget.style.color = C.gold}
-              onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>
-              NL
-            </a>
+            <a href="https://nl.casa-cavour.com/" style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.68rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", transition: "color 0.2s", padding: "0.2rem 0.3rem" }}
+              onMouseEnter={e => e.currentTarget.style.color = C.gold} onMouseLeave={e => e.currentTarget.style.color = C.textSoft}>NL</a>
           </div>
         </div>
         <button onClick={() => setOpen(!open)} style={{ display: "none", background: "none", border: "none", cursor: "pointer", padding: "0.5rem", flexDirection: "column", gap: 5 }} className="burger">
@@ -155,22 +137,12 @@ function Nav() {
               style={{ display: "inline-block", background: C.gold, color: "#fff", padding: "0.7rem 1.75rem", fontWeight: 800, fontSize: "0.82rem", letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none" }}>
               BOOK NOW
             </a>
-            {/* Language switcher — mobile */}
             <div style={{ display: "flex", gap: "0.25rem", alignItems: "center" }}>
-              <a href="https://casa-cavour.vercel.app"
-                style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
-                IT
-              </a>
+              <a href="https://www.casa-cavour.com/" style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>IT</a>
               <span style={{ color: C.border, fontSize: "0.75rem" }}>|</span>
-              <a href="https://casa-cavour-en.vercel.app"
-                style={{ color: C.gold, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
-                EN
-              </a>
+              <a href="https://en.casa-cavour.com/" style={{ color: C.gold, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>EN</a>
               <span style={{ color: C.border, fontSize: "0.75rem" }}>|</span>
-              <a href="https://casa-cavour-nl.vercel.app"
-                style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>
-                NL
-              </a>
+              <a href="https://nl.casa-cavour.com/" style={{ color: C.textSoft, textDecoration: "none", fontSize: "0.75rem", fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", padding: "0.3rem 0.4rem" }}>NL</a>
             </div>
           </div>
         </div>
@@ -180,7 +152,6 @@ function Nav() {
   );
 }
 
-// ── Hero ──────────────────────────────────────────────────────────────────────
 function Hero() {
   const [loaded, setLoaded] = useState(false);
   useEffect(() => { setTimeout(() => setLoaded(true), 120); }, []);
@@ -239,7 +210,6 @@ function Hero() {
   );
 }
 
-// ── Apartment / Gallery ───────────────────────────────────────────────────────
 function Apartment() {
   const [active, setActive] = useState(0);
   const rooms = [
@@ -254,8 +224,7 @@ function Apartment() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "start" }} className="apt-grid">
           <Reveal>
             <div style={{ marginBottom: "0.75rem", overflow: "hidden", boxShadow: C.shadow }}>
-              <img src={rooms[active].src} alt="Casa Cavour apartment"
-                style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block", transition: "opacity 0.35s" }} />
+              <img src={rooms[active].src} alt="Casa Cavour apartment" style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block", transition: "opacity 0.35s" }} />
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(6,1fr)", gap: "0.35rem", marginBottom: "0.35rem" }}>
               {rooms.slice(0,6).map((r,i) => (
@@ -317,7 +286,6 @@ function Apartment() {
   );
 }
 
-// ── Location ──────────────────────────────────────────────────────────────────
 function Location() {
   return (
     <section id="location" style={{ background: C.bg, padding: "7rem 2rem" }}>
@@ -367,34 +335,35 @@ function Location() {
             <Reveal delay={100}>
               <h3 style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.72rem", letterSpacing: "0.2em", textTransform: "uppercase", color: C.textSoft, marginBottom: "1.1rem" }}>THINGS TO DO NEARBY</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.6px", background: C.border }}>
-              {[
-                { icon:"🍷", title:"Wine Tour in Romagna", desc:"Albana DOCG and Sangiovese — the vineyards are 10 minutes away. Historic wineries." },
-                { icon:"🚴", title:"Cycling & Hiking Trails", desc:"Hilltop cycling routes through medieval villages, olive groves and Adriatic panoramas." },
-                { icon:"🌅", title:"Sunset on the Balcony", desc:"The panoramic terrace of Bertinoro offers one of the most beautiful sunsets in Romagna, with views to the Adriatic." },
-                { icon:"🍝", title:"Romagnola Cuisine", desc:"Piadina, tagliatelle al ragu, squacquerone. Trattorias 5 min away where the locals eat." },
-                { icon:"🏖️", title:"Adriatic Riviera", desc:"Cesenatico, Rimini and the beaches just 30-40 min by car." },
-                { icon:"🏰", title:"San Marino & Castles", desc:"The Most Serene Republic just 35 min away. Intact medieval villages all around." },
-              ].map(({icon,title,desc}) => (
-                <div key={title} style={{ display: "flex", gap: "1rem", marginBottom: "0.6px", alignItems: "flex-start", background: C.cardBg, padding: "0.85rem 1rem", transition: "background 0.2s" }} onMouseEnter={e => e.currentTarget.style.background=C.bg2} onMouseLeave={e => e.currentTarget.style.background=C.cardBg}>
-                  <span style={{ fontSize: "1.25rem", flexShrink: 0, marginTop: 2 }}>{icon}</span>
-                  <div>
-                    <div style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1rem", color: C.text, fontWeight: 600, marginBottom: "0.2rem" }}>{title}</div>
-                    <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.82rem", color: C.textMid, lineHeight: 1.65 }}>{desc}</div>
+                {[
+                  { icon:"🍷", title:"Wine Tour in Romagna", desc:"Albana DOCG and Sangiovese — the vineyards are 10 minutes away. Historic wineries." },
+                  { icon:"🚴", title:"Cycling & Hiking Trails", desc:"Hilltop cycling routes through medieval villages, olive groves and Adriatic panoramas." },
+                  { icon:"🌅", title:"Sunset on the Balcony", desc:"The panoramic terrace of Bertinoro offers one of the most beautiful sunsets in Romagna, with views to the Adriatic." },
+                  { icon:"🍝", title:"Romagnola Cuisine", desc:"Piadina, tagliatelle al ragu, squacquerone. Trattorias 5 min away where the locals eat." },
+                  { icon:"🏖️", title:"Adriatic Riviera", desc:"Cesenatico, Rimini and the beaches just 30-40 min by car." },
+                  { icon:"🏰", title:"San Marino & Castles", desc:"The Most Serene Republic just 35 min away. Intact medieval villages all around." },
+                ].map(({icon,title,desc}) => (
+                  <div key={title} style={{ display: "flex", gap: "1rem", marginBottom: "0.6px", alignItems: "flex-start", background: C.cardBg, padding: "0.85rem 1rem", transition: "background 0.2s" }}
+                    onMouseEnter={e => e.currentTarget.style.background=C.bg2}
+                    onMouseLeave={e => e.currentTarget.style.background=C.cardBg}>
+                    <span style={{ fontSize: "1.25rem", flexShrink: 0, marginTop: 2 }}>{icon}</span>
+                    <div>
+                      <div style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1rem", color: C.text, fontWeight: 600, marginBottom: "0.2rem" }}>{title}</div>
+                      <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.82rem", color: C.textMid, lineHeight: 1.65 }}>{desc}</div>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
               </div>
             </Reveal>
           </div>
         </div>
-          </div>
+      </div>
       <style>{`@media(max-width:768px){.loc-grid{grid-template-columns:1fr!important;gap:2rem!important}}`}</style>
       <DiagDivider topColor={C.bg} botColor={C.bg2} flip />
     </section>
   );
 }
 
-// ── How It Works ──────────────────────────────────────────────────────────────
 function HowItWorks() {
   return (
     <section id="experiences" style={{ background: C.bg2, padding: "7rem 2rem" }}>
@@ -432,7 +401,6 @@ function HowItWorks() {
   );
 }
 
-// ── Testimonials ──────────────────────────────────────────────────────────────
 function Testimonials() {
   return (
     <section id="reviews" style={{ background: C.bg, padding: "7rem 2rem" }}>
@@ -480,7 +448,6 @@ function Testimonials() {
   );
 }
 
-// ── About ─────────────────────────────────────────────────────────────────────
 function About() {
   return (
     <section style={{ background: C.bg2, padding: "7rem 2rem" }}>
@@ -528,16 +495,10 @@ function About() {
     </section>
   );
 }
-// ── Blog (English version) ────────────────────────────────────────────────────
-// Add this import at the top of App.jsx:
-// import { posts } from "./posts.js";
-//
-// Add <Blog /> before <FinalCTA /> in the App component
 
 function Blog() {
   const [open, setOpen] = useState(null);
   const visibili = posts.filter(p => p.attivo).sort((a, b) => new Date(b.data) - new Date(a.data));
-
   return (
     <section id="blog" style={{ background: C.bg2, padding: "7rem 2rem" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -551,30 +512,20 @@ function Blog() {
             </h2>
           </div>
         </Reveal>
-
         {open === null && (
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "1.5rem", alignItems: "stretch" }} className="blog-grid">
             {visibili.map((post, i) => (
               <Reveal key={post.id} delay={i * 80}>
-                <div
-                  onClick={() => setOpen(post.id)}
+                <div onClick={() => setOpen(post.id)}
                   style={{ background: C.cardBg, padding: "2rem", cursor: "pointer", height: "100%", transition: "all 0.3s ease", boxShadow: C.shadow }}
                   onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-4px)"; e.currentTarget.style.boxShadow = "0 12px 40px rgba(26,22,18,0.14)"; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = "translateY(0)"; e.currentTarget.style.boxShadow = C.shadow; }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
-                    <span style={{ fontSize: "0.62rem", letterSpacing: "0.18em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", border: `1px solid ${C.border}`, padding: "0.2rem 0.6rem" }}>
-                      {post.categoria}
-                    </span>
-                    <span style={{ fontSize: "0.68rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif" }}>
-                      {new Date(post.data).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
-                    </span>
+                    <span style={{ fontSize: "0.62rem", letterSpacing: "0.18em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", border: `1px solid ${C.border}`, padding: "0.2rem 0.6rem" }}>{post.categoria}</span>
+                    <span style={{ fontSize: "0.68rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif" }}>{new Date(post.data).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
                   </div>
-                  <h3 style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.25rem", color: C.text, fontWeight: 700, lineHeight: 1.2, marginBottom: "0.85rem", letterSpacing: "-0.01em" }}>
-                    {post.titolo}
-                  </h3>
-                  <p style={{ fontSize: "0.83rem", color: C.textMid, lineHeight: 1.75, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.25rem" }}>
-                    {post.sommario}
-                  </p>
+                  <h3 style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.25rem", color: C.text, fontWeight: 700, lineHeight: 1.2, marginBottom: "0.85rem", letterSpacing: "-0.01em" }}>{post.titolo}</h3>
+                  <p style={{ fontSize: "0.83rem", color: C.textMid, lineHeight: 1.75, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.25rem" }}>{post.sommario}</p>
                   <div style={{ display: "flex", alignItems: "center", gap: "0.4rem", color: C.gold, fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif" }}>
                     Read more <span>↗</span>
                   </div>
@@ -583,86 +534,42 @@ function Blog() {
             ))}
           </div>
         )}
-
         {open !== null && (() => {
           const post = visibili.find(p => p.id === open);
           if (!post) return null;
           return (
             <Reveal>
               <div style={{ maxWidth: 760, margin: "0 auto" }}>
-                <button
-                  onClick={() => setOpen(null)}
+                <button onClick={() => setOpen(null)}
                   style={{ background: "none", border: `1px solid ${C.border}`, padding: "0.45rem 1rem", fontSize: "0.72rem", color: C.textMid, fontFamily: "'DM Sans',sans-serif", letterSpacing: "0.1em", textTransform: "uppercase", cursor: "pointer", marginBottom: "2.5rem", transition: "all 0.2s" }}
                   onMouseEnter={e => { e.currentTarget.style.borderColor = C.gold; e.currentTarget.style.color = C.gold; }}
                   onMouseLeave={e => { e.currentTarget.style.borderColor = C.border; e.currentTarget.style.color = C.textMid; }}>
                   ← All articles
                 </button>
                 <div style={{ display: "flex", gap: "1rem", alignItems: "center", marginBottom: "1.25rem" }}>
-                  <span style={{ fontSize: "0.62rem", letterSpacing: "0.18em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", border: `1px solid ${C.border}`, padding: "0.2rem 0.6rem" }}>
-                    {post.categoria}
-                  </span>
-                  <span style={{ fontSize: "0.68rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif" }}>
-                    {new Date(post.data).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
-                  </span>
+                  <span style={{ fontSize: "0.62rem", letterSpacing: "0.18em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", border: `1px solid ${C.border}`, padding: "0.2rem 0.6rem" }}>{post.categoria}</span>
+                  <span style={{ fontSize: "0.68rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif" }}>{new Date(post.data).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
                 </div>
-                <h2 style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "clamp(1.8rem,4vw,2.8rem)", color: C.text, fontWeight: 700, lineHeight: 1.1, marginBottom: "1rem", letterSpacing: "-0.02em" }}>
-                  {post.titolo}
-                </h2>
-                <p style={{ fontSize: "1rem", color: C.gold, lineHeight: 1.75, fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontStyle: "italic", marginBottom: "2rem", paddingBottom: "2rem", borderBottom: `1px solid ${C.border}` }}>
-                  {post.sommario}
-                </p>
+                <h2 style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "clamp(1.8rem,4vw,2.8rem)", color: C.text, fontWeight: 700, lineHeight: 1.1, marginBottom: "1rem", letterSpacing: "-0.02em" }}>{post.titolo}</h2>
+                <p style={{ fontSize: "1rem", color: C.gold, lineHeight: 1.75, fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontStyle: "italic", marginBottom: "2rem", paddingBottom: "2rem", borderBottom: `1px solid ${C.border}` }}>{post.sommario}</p>
                 {post.contenuto.map((blocco, i) => {
-  if (blocco.tipo === "paragrafo") {
-    return (
-      <p key={i} style={{ fontSize: "0.95rem", color: C.textMid, lineHeight: 1.9, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.25rem" }}>
-        {blocco.testo}
-      </p>
-    );
-  }
-  if (blocco.tipo === "titoletto") {
-    return (
-      <h3 key={i} style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.35rem", color: C.text, fontWeight: 700, marginBottom: "0.6rem", marginTop: "2rem", letterSpacing: "-0.01em" }}>
-        {blocco.testo}
-      </h3>
-    );
-  }
-  if (blocco.tipo === "link") {
-    const isInstagram = blocco.testo.includes("instagram");
-    const isFacebook  = blocco.testo.includes("facebook");
-    const label = blocco.etichetta ? blocco.etichetta : isInstagram ? "📸 Instagram" : isFacebook ? "👍 Facebook" : "🔗 Link";
-    return (
-      <a key={i} href={blocco.testo} target="_blank" rel="noopener noreferrer"
-        style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "transparent", color: C.gold, padding: "0.6rem 1.2rem", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", border: `1.5px solid ${C.gold}`, marginRight: "0.75rem", marginBottom: "0.5rem", transition: "all 0.2s" }}
-        onMouseEnter={e => { e.currentTarget.style.background = C.gold; e.currentTarget.style.color = "#fff"; }}
-        onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = C.gold; }}>
-        {label} ↗
-      </a>
-    );
-  }
-  if (blocco.tipo === "download") {
-    return (
-      <div key={i} style={{ display: "flex", gap: "1rem", flexWrap: "wrap", margin: "1.5rem 0" }}>
-        
-          <a href={blocco.src1}
-          download
-          style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: C.gold, color: "#fff", padding: "0.75rem 1.5rem", fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", transition: "background 0.2s" }}
-          onMouseEnter={e => e.currentTarget.style.background = "#8a6520"}
-          onMouseLeave={e => e.currentTarget.style.background = C.gold}>
-          ↓ {blocco.label1}
-        </a>
-        
-         <a href={blocco.src2}
-          download
-          style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "transparent", color: C.gold, padding: "0.75rem 1.5rem", fontSize: "0.75rem", fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", border: `1.5px solid ${C.gold}`, transition: "all 0.2s" }}
-          onMouseEnter={e => { e.currentTarget.style.background = C.gold; e.currentTarget.style.color = "#fff"; }}
-          onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = C.gold; }}>
-          ↓ {blocco.label2}
-        </a>
-      </div>
-    );
-  }
-  return null;
-})}
+                  if (blocco.tipo === "paragrafo") return <p key={i} style={{ fontSize: "0.95rem", color: C.textMid, lineHeight: 1.9, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.25rem" }}>{blocco.testo}</p>;
+                  if (blocco.tipo === "titoletto") return <h3 key={i} style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.35rem", color: C.text, fontWeight: 700, marginBottom: "0.6rem", marginTop: "2rem", letterSpacing: "-0.01em" }}>{blocco.testo}</h3>;
+                  if (blocco.tipo === "link") {
+                    const isInstagram = blocco.testo.includes("instagram");
+                    const isFacebook = blocco.testo.includes("facebook");
+                    const label = blocco.etichetta ? blocco.etichetta : isInstagram ? "📸 Instagram" : isFacebook ? "👍 Facebook" : "🔗 Link";
+                    return (
+                      <a key={i} href={blocco.testo} target="_blank" rel="noopener noreferrer"
+                        style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "transparent", color: C.gold, padding: "0.6rem 1.2rem", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", border: `1.5px solid ${C.gold}`, marginRight: "0.75rem", marginBottom: "0.5rem", transition: "all 0.2s" }}
+                        onMouseEnter={e => { e.currentTarget.style.background = C.gold; e.currentTarget.style.color = "#fff"; }}
+                        onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = C.gold; }}>
+                        {label} ↗
+                      </a>
+                    );
+                  }
+                  return null;
+                })}
                 <div style={{ marginTop: "3rem", padding: "2rem", background: C.bg3, borderLeft: `3px solid ${C.gold}` }}>
                   <p style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.1rem", color: C.text, marginBottom: "1rem", fontStyle: "italic" }}>
                     Want to experience authentic Romagna from Casa Cavour?
@@ -685,8 +592,72 @@ function Blog() {
   );
 }
 
+function QA() {
+  const [aperto, setAperto] = useState(null);
+  const toggle = (id) => { setAperto(prev => prev === id ? null : id); };
+  return (
+    <section id="qa" style={{ background: C.bg, padding: "7rem 2rem" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto" }}>
+        <Reveal>
+          <div style={{ fontSize: "0.67rem", letterSpacing: "0.28em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", marginBottom: "1rem", textAlign: "center" }}>
+            Frequently asked questions
+          </div>
+          <h2 style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "clamp(2rem,4vw,3rem)", color: C.text, fontWeight: 700, lineHeight: 1.1, marginBottom: "0.75rem", letterSpacing: "-0.02em", textAlign: "center" }}>
+            Questions about Casa Cavour?
+          </h2>
+          <p style={{ fontSize: "0.95rem", color: C.textMid, lineHeight: 1.85, fontFamily: "'DM Sans',sans-serif", textAlign: "center", maxWidth: 560, margin: "0 auto 3.5rem" }}>
+            Everything you need to know before booking your stay in Bertinoro, in the heart of the Romagna hills.
+          </p>
+        </Reveal>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem", alignItems: "start" }} className="qa-grid">
+          {qanda.map((item, index) => {
+            const isOpen = aperto === item.id;
+            return (
+              <Reveal key={item.id} delay={index * 40}>
+                <div style={{ background: C.cardBg, border: `1px solid ${isOpen ? C.gold : C.border}`, transition: "border-color 0.3s ease", overflow: "hidden" }}>
+                  <button onClick={() => toggle(item.id)}
+                    style={{ width: "100%", display: "flex", justifyContent: "space-between", alignItems: "flex-start", padding: "1.25rem", background: "none", border: "none", cursor: "pointer", textAlign: "left", gap: "0.75rem" }}>
+                    <span style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "0.95rem", color: isOpen ? C.gold : C.text, fontWeight: 700, lineHeight: 1.3, transition: "color 0.3s ease" }}>
+                      {item.domanda}
+                    </span>
+                    <span style={{ flexShrink: 0, width: 24, height: 24, border: `1.5px solid ${isOpen ? C.gold : C.border}`, display: "flex", alignItems: "center", justifyContent: "center", color: isOpen ? C.gold : C.textSoft, fontSize: "1rem", fontWeight: 300, transition: "all 0.3s ease", transform: isOpen ? "rotate(45deg)" : "rotate(0deg)" }}>
+                      +
+                    </span>
+                  </button>
+                  <div style={{ maxHeight: isOpen ? "400px" : "0px", overflow: "hidden", transition: "max-height 0.4s ease" }}>
+                    <div style={{ padding: "1rem 1.25rem 1.25rem", borderTop: `1px solid ${C.border}` }}>
+                      <p style={{ fontSize: "0.85rem", color: C.textMid, lineHeight: 1.8, fontFamily: "'DM Sans',sans-serif", margin: 0 }}>
+                        {item.risposta}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Reveal>
+            );
+          })}
+        </div>
+        <Reveal delay={200}>
+          <div style={{ textAlign: "center", marginTop: "3.5rem" }}>
+            <p style={{ fontSize: "0.9rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.25rem" }}>
+              Didn't find the answer you were looking for?
+            </p>
+            <a href="https://www.airbnb.com/rooms/1374591120957342823" target="_blank" rel="noopener noreferrer"
+              style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", background: "transparent", color: C.gold, padding: "0.75rem 1.75rem", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", textDecoration: "none", fontFamily: "'DM Sans',sans-serif", border: `1.5px solid ${C.gold}`, transition: "all 0.2s" }}
+              onMouseEnter={e => { e.currentTarget.style.background = C.gold; e.currentTarget.style.color = "#fff"; }}
+              onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = C.gold; }}>
+              Book and find out more ↗
+            </a>
+          </div>
+        </Reveal>
+      </div>
+      <style>{`
+        @media(max-width:1024px){.qa-grid{grid-template-columns:repeat(2,1fr)!important;}}
+        @media(max-width:600px){.qa-grid{grid-template-columns:1fr!important;}}
+      `}</style>
+    </section>
+  );
+}
 
-// ── Final CTA ─────────────────────────────────────────────────────────────────
 function FinalCTA() {
   return (
     <section style={{ background: C.bg, padding: "9rem 2rem", position: "relative", overflow: "hidden" }}>
@@ -716,7 +687,6 @@ function FinalCTA() {
   );
 }
 
-// ── Footer ────────────────────────────────────────────────────────────────────
 function Footer() {
   return (
     <footer style={{ background: C.bg3, borderTop: `1px solid ${C.border}`, padding: "4rem 2rem 2rem" }}>
@@ -736,7 +706,7 @@ function Footer() {
           </div>
           <div>
             <div style={{ fontSize: "0.67rem", letterSpacing: "0.18em", textTransform: "uppercase", color: C.textSoft, fontFamily: "'DM Sans',sans-serif", marginBottom: "0.85rem" }}>Navigate</div>
-            {[["Apartment","apartment"],["Location","location"],["Experiences","experiences"],["Reviews","reviews"],["Blog","blog"] ].map(([l,id]) => (
+            {[["Apartment","apartment"],["Location","location"],["Experiences","experiences"],["Reviews","reviews"],["Blog","blog"]].map(([l,id]) => (
               <a key={l} href={`#${id}`} style={{ display: "block", color: C.textMid, textDecoration: "none", fontSize: "0.83rem", fontFamily: "'DM Sans',sans-serif", marginBottom: "0.5rem", transition: "color 0.2s" }}
                 onMouseEnter={e => e.target.style.color=C.gold} onMouseLeave={e => e.target.style.color=C.textMid}>
                 {l}
@@ -764,7 +734,6 @@ function Footer() {
   );
 }
 
-// ── App ───────────────────────────────────────────────────────────────────────
 export default function App() {
   return (
     <>
@@ -786,6 +755,7 @@ export default function App() {
       <Testimonials />
       <About />
       <Blog />
+      <QA />
       <FinalCTA />
       <Footer />
     </>
