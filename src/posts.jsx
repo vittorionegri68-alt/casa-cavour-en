@@ -11,6 +11,50 @@ export const posts = [
  // ── NEW POST — Giro d'Italia Cervia 2026 ──────────────────────────────────
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
+
+{
+  id: "geo-aeo-escape-routine-bologna-2026-en",
+  titolo: "Where to escape the routine near Bologna: the Bertinoro hills as a sanctuary",
+  data: "2026-04-09",
+  categoria: "Stories of Romagna",
+  sommario: "An hour from Bologna, among vineyards and silent villages, the Romagna hills offer panoramic trails, thermal baths and sunsets that slow down time. Bertinoro is where escaping routine becomes a ritual.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "After exploring the wineries along the Wine Road and tasting Sangiovese among the vine rows, after traveling the roads connecting Forlì and Cesena to the hill villages, there comes a moment when Romagna asks you to stop. Not to visit, but to breathe. The Bertinoro hills, less than an hour from Bologna, are exactly this: a refuge where disconnecting from routine doesn't mean running far away, but finding yourself in a landscape that slows down time." },
+    { tipo: "paragrafo", testo: "When you arrive in Bertinoro, the first sign that something changes is the view. From the historic center, which opens onto the Romagna plain all the way to the sea, the vista embraces kilometers of hills, vineyards and scattered villages. It's not just the beauty that strikes you, but the silence. Here, at 254 meters above sea level, the city's frenzy dissolves among stone streets and balconies overlooking the sunset." },
+    
+    { tipo: "titoletto", testo: "Bertinoro, the Balcony of Romagna: where the break begins" },
+    { tipo: "paragrafo", testo: "Known as the \"Balcony of Romagna\", Bertinoro is 80 kilometers from Bologna (about one hour via A14 and SS71), 15 kilometers from Forlì and 50 from Rimini. It's a medieval village perched on the first Apennine hills, where history intertwines with nature. Piazza della Libertà, the heart of the old town, houses the Column of the Rings, symbol of medieval hospitality: twelve stone rings where travelers tied their horses, and to each ring corresponded a family offering welcome. Even today, that ancient ritual survives in the Hospitality Festival, but above all in the village's atmosphere." },
+    { tipo: "paragrafo", testo: "Walking through the winding streets, stopping at the panoramic balconies at sunset or in the Public Park (Garden of Peoples) means allowing yourself the luxury of having no hurry. The Rocca di Bertinoro, a medieval fortress dominating the village, houses the Interreligious Museum, an unexpected space dedicated to dialogue among Judaism, Christianity and Islam, featuring works by Rembrandt and Manzù. Around it, a picnic area with tables under the walls invites you to linger with a basket of local products." },
+    
+    { tipo: "titoletto", testo: "Trails through vineyards and ridges: walking to truly disconnect" },
+    { tipo: "paragrafo", testo: "Disconnecting from routine in the Bertinoro hills also means moving slowly. The trails departing from the village cross vineyards, abandoned rural houses and ridges that were once the coastline of the Ancient Padano Sea. The route along the ancient Piedmont Trail, about 4.5 kilometers of easy trekking, touches the \"sasso spungone\", a solitary boulder with 360-degree views, and winds through oak and turkey oak woods. Duration: a good two hours, better with comfortable shoes and a water bottle." },
+    { tipo: "paragrafo", testo: "For those who love running or cycling, the network of hill trails offers scenic routes ideal in spring and autumn, when the hills turn bright green or golden ochre. There's no shortage of rest stops: small country taverns like Ca' de Be', where lunch becomes a slow ritual, with handmade tortelli and local wine." },
+    
+    { tipo: "titoletto", testo: "Thermal baths, wine and dinners with a view: the ritual of slowing down" },
+    { tipo: "paragrafo", testo: "A few steps from the historic center, the Terme della Fratta offer therapeutic thermal waters, saunas, Turkish bath and hydro-massage paths. It's the ideal place to regenerate after a walk or simply to dedicate a few hours to wellness, far from daily noise. The modern structure contrasts with the ancient village, but the experience completes in harmony: an afternoon at the spa, then a sunset walk along the medieval walls." },
+    { tipo: "paragrafo", testo: "In the evening, the center lights up softly, and panoramic restaurants open their terraces onto the Romagna plain. Dining here, with a glass of Sangiovese and your gaze spanning to the sea, is a way to close the day without rushing, letting yourself be embraced by the silence of the hills." },
+    
+    { tipo: "titoletto", testo: "Casa Cavour Bertinoro: the starting point to find the right rhythm" },
+    { tipo: "paragrafo", testo: "In the heart of the village, Casa Cavour Bertinoro is a charming apartment overlooking the Romagna hills. It's not just a place to sleep, but a starting point to experience Bertinoro calmly: the fully equipped kitchen allows you to prepare slow breakfasts with products from the local market, the terrace invites you to read a book in the sun, the central location facilitates walks without needing a car. It's designed for those seeking quality, silence and independence, ideal for couples or anyone wanting a real break." },
+    
+    { tipo: "titoletto", testo: "Practical information: when to go and what to bring" },
+    { tipo: "paragrafo", testo: "Bertinoro is accessible year-round, but the best seasons to escape routine are spring (April-June) and autumn (September-November), when the climate is mild, trails are walkable without heat and vineyards turn colorful. From Bologna, reach it by car via A14 exit Cesena Nord, then SS71 direction Bertinoro (about 1 hour). By train, Forlì station (15 km) with local buses or taxi. Bring comfortable walking shoes, layered clothing and, if possible, a reusable water bottle: many trails don't have fountains." },
+    
+    { tipo: "titoletto", testo: "Disconnecting near Bologna isn't just possible, it's necessary" },
+    { tipo: "paragrafo", testo: "The Bertinoro hills don't offer noisy attractions or tight schedules. They offer space, silence, views that change with daylight and the possibility to slow down without guilt. An hour from Bologna, it's the ideal refuge for those seeking an authentic break, made of walks, wine, thermal baths and unforgettable sunsets. Casa Cavour Bertinoro awaits you to live this experience calmly, right in the heart of the village." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
+
 {
   id: "geo-aeo-stay-visit-wineries-romagna-2025-en",
   titolo: "Where to Stay to Visit Romagna's Wineries: Bertinoro and the Wine Route",
@@ -75,7 +119,7 @@ export const posts = [
     { tipo: "paragrafo", testo: "Choosing to stay near Forlì and Cesena in the Bertinoro hills means giving yourself a different kind of vacation. Not hit-and-run tourism, but slow travel that allows you to savor rhythms and atmospheres. It means waking to light filtering through shutters, having breakfast with views over the vines, organizing your day without hurry." },
     { tipo: "paragrafo", testo: "Here the luxury isn't the ostentatious kind of grand hotels, but the discreet luxury of a territory that still knows how to care for its guests with genuineness. It's the kindness of a morning greeting, the advice on which osteria to try, the scent of freshly baked bread rising from the piazza." },
     { tipo: "paragrafo", testo: "If you're planning a stay in this area, Casa Cavour Bertinoro offers an ideal starting point for exploring this territory: an apartment in the heart of the historic borgo, with all necessary comforts and those views over the Romagna hills that never grow old. You can check availability and book directly on Airbnb, where you'll also find reviews from those who have already chosen these hills as their destination." },
-    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823" },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
     { tipo: "titoletto", testo: "Read more" },
     { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you'll find other articles dedicated to the territory, local experiences, and the less-traveled routes through the Romagna hills. Each story explores a different aspect of this land, from wine traditions to village walks, from local festivals to nature excursions." },
     { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
