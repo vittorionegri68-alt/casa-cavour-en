@@ -168,13 +168,13 @@ function Hero() {
           <div style={{ flex: "1 1 320px", minWidth: 0 }}>
             <div style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(18px)", transition: "all 0.7s ease 0.15s", display: "flex", alignItems: "center", gap: "0.8rem", marginBottom: "1.3rem" }}>
               <span style={{ display: "inline-block", width: 32, height: 1, background: C.gold }} />
-              <span style={{ fontSize: "0.67rem", letterSpacing: "0.28em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif" }}>Bertinoro · Emilia-Romagna · B&amp;B</span>
+              <span style={{ fontSize: "0.67rem", letterSpacing: "0.28em", color: C.gold, textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif" }}>Bertinoro · Romagna Hills · Forlì-Cesena</span>
             </div>
             <h1 style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(28px)", transition: "all 0.85s ease 0.3s", fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "clamp(2.6rem,5.5vw,5rem)", fontWeight: 700, color: C.text, lineHeight: 1.04, letterSpacing: "-0.02em", margin: "0 0 1.2rem" }}>
               Experience Romagna<br /><span style={{ color: C.gold, fontStyle: "italic" }}>like a local.</span>
             </h1>
             <p style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(24px)", transition: "all 0.85s ease 0.46s", fontSize: "clamp(0.93rem,1.8vw,1.08rem)", color: C.textMid, lineHeight: 1.82, margin: "0 0 2rem", fontFamily: "'DM Sans',sans-serif" }}>
-              A design apartment in the historic centre of Bertinoro — the <em style={{ color: C.text }}>"Balcony of Romagna"</em>. For couples, professionals and travellers seeking authenticity, comfort and a genuine connection with the region.
+              Holiday apartment with fully equipped kitchen in the historic centre of Bertinoro — the <em style={{ color: C.text }}>"Balcony of Romagna"</em>, in the Forlì-Cesena hills of Romagna. The ideal base to explore the region: wineries, medieval villages, Adriatic coast. Perfect for a romantic weekend, wine tourism or a relaxing break from the city — just 60 min from Bologna.
             </p>
             <div style={{ opacity: loaded?1:0, transform: loaded?"translateY(0)":"translateY(24px)", transition: "all 0.85s ease 0.6s", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <a href="https://airbnb.com/h/casacavour-bertinoro" target="_blank" rel="noopener noreferrer"
@@ -190,7 +190,7 @@ function Hero() {
               </a>
             </div>
             <div style={{ opacity: loaded?1:0, transition: "opacity 0.8s ease 0.78s", display: "flex", gap: "2rem", marginTop: "2.5rem", paddingTop: "1.75rem", borderTop: `1px solid ${C.border}`, flexWrap: "wrap" }}>
-              {[["★★★★★","Airbnb Rating"],["4","Max guests"],["15 min","from Cesena"],["35 min","from San Marino"]].map(([v,l]) => (
+              {[["★★★★★","Airbnb Rating"],["4","Max guests"],["15 min","from Cesena"],["60 min","from Bologna"]].map(([v,l]) => (
                 <div key={l}>
                   <div style={{ fontFamily: "'Cormorant Garamond','Playfair Display',serif", fontSize: "1.3rem", color: C.gold, fontWeight: 700 }}>{v}</div>
                   <div style={{ fontSize: "0.66rem", color: C.textSoft, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: "'DM Sans',sans-serif", marginTop: 2 }}>{l}</div>
@@ -336,7 +336,7 @@ function Location() {
               <h3 style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.72rem", letterSpacing: "0.2em", textTransform: "uppercase", color: C.textSoft, marginBottom: "1.1rem" }}>THINGS TO DO NEARBY</h3>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.6px", background: C.border }}>
                 {[
-                  { icon:"🍷", title:"Wine Tour in Romagna", desc:"Albana DOCG and Sangiovese — the vineyards are 10 minutes away. Historic wineries." },
+                  { icon:"🍷", title:"Wine Tourism in Romagna", desc:"Albana DOCG and Sangiovese di Romagna — vineyards 10 minutes away. Historic wineries, tastings and the Strada dei Vini. The perfect territory for a wine weekend." },
                   { icon:"🚴", title:"Cycling & Hiking Trails", desc:"Hilltop cycling routes through medieval villages, olive groves and Adriatic panoramas." },
                   { icon:"🌅", title:"Sunset on the Balcony", desc:"The panoramic terrace of Bertinoro offers one of the most beautiful sunsets in Romagna, with views to the Adriatic." },
                   { icon:"🍝", title:"Romagnola Cuisine", desc:"Piadina, tagliatelle al ragu, squacquerone. Trattorias 5 min away where the locals eat." },
@@ -471,7 +471,7 @@ function About() {
               Casa Cavour is located on Via Cavour, one of the oldest streets in Bertinoro, a medieval hilltop village nicknamed the <em>"Balcony of Romagna"</em> for its panoramic views stretching to the Adriatic.
             </p>
             <p style={{ fontSize: "0.94rem", color: C.textMid, lineHeight: 1.85, fontFamily: "'DM Sans',sans-serif", marginBottom: "1.75rem" }}>
-              The apartment was designed to give discerning travellers a home worthy of the region. A holiday apartment in the historic centre of Bertinoro, near Cesena, ideal for romantic weekends in the hills of Romagna.
+              The apartment was designed to give discerning travellers a home worthy of the region. A short-term rental with fully equipped kitchen in the historic centre of Bertinoro (FC), in the Romagna hills of Emilia-Romagna. Ideal for couples seeking a romantic weekend, wine lovers exploring the local wineries, or anyone looking to recharge away from the city — with Bologna just 60 minutes away.
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
               {[
@@ -701,7 +701,7 @@ function Footer() {
               Via Cavour · Bertinoro (FC)<br />Emilia-Romagna · Italy 47032
             </div>
             <div style={{ fontFamily: "'DM Sans',sans-serif", fontSize: "0.76rem", color: C.textSoft, lineHeight: 1.7 }}>
-              Holiday apartment in the historic centre of Bertinoro.<br />Near Cesena, Rimini, San Marino.
+              Short-term rental in the historic centre of Bertinoro, Romagna hills (FC).<br />Ideal base for wine tourism, romantic weekends and relaxation in Romagna.
             </div>
           </div>
           <div>
