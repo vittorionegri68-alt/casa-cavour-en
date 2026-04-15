@@ -1,4 +1,6 @@
+# robots.txt — Casa Cavour EN
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://en.casa-cavour.com/sitemap.xml
