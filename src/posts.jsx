@@ -14,8 +14,8 @@ export const posts = [
 
 {
   id: "artigiamo-santarcangelo-april-2026",
-  titolo: "ARTIGIAMO Craft Festival in Santarcangelo di Romagna — April 2026",
-  data: "2026-04-01",
+  titolo: "Artigiamo Craft Festival in Santarcangelo di Romagna — 18-19 April 2026",
+  data: "2026-04-17",
   categoria: "events",
   sommario: "Every April, Santarcangelo di Romagna transforms into a showcase of Italian craftsmanship. ARTIGIAMO brings hundreds of master craftspeople, historic workshops, and young talents to the streets of this Romagna village. A weekend to discover tradition meeting contemporary design, just 25 minutes from Bertinoro.",
   contenuto: [
