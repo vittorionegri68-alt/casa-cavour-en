@@ -13,9 +13,58 @@ export const posts = [
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
 
 {
+  id: "geo-aeo-what-to-do-bertinoro-weekend-2026-en",
+  titolo: "What to do in Bertinoro for a weekend: vineyards, hilltop villages and Romagna hills views",
+  data: "2026-04-21",
+  categoria: "Stories of Romagna",
+  sommario: "A weekend in Bertinoro, in the Romagna hills, is a journey through medieval streets, Sangiovese wineries and panoramic trails. Discover what to do, where to stay and how to experience authentic Romagna.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "If you've ever imagined waking up in the Romagna hills and wondering which wine to taste after a walk through the vineyards, you've probably come across our articles about Romagna wineries and wine tourism weekends in Bertinoro. But a weekend here isn't just about glasses and set tables: it's a slow rhythm made of stone alleys, views that embrace the plain down to the sea, silences broken only by wind through the vines. Bertinoro, known as the 'Balcony of Romagna', is one of those places where every hour of the day offers a different discovery, and where the question 'what to do' finds its answer in simply letting the territory move through you." },
+    { tipo: "paragrafo", testo: "15 minutes from Cesena, 20 from Forlì, 60 km from Bologna and 40 minutes from Rimini, Bertinoro is the ideal base to explore authentic Romagna, the kind that doesn't shout but whispers. And if you're looking for a short-term rental in the Romagna hills where you feel at home, with a fully equipped kitchen to improvise dinner with market products and a private garden to read at sunset, Casa Cavour Bertinoro becomes the perfect starting point for this slow journey." },
+    
+    { tipo: "titoletto", testo: "Bertinoro's historic centre: history, panoramas and medieval symbols" },
+    { tipo: "paragrafo", testo: "The heart of Bertinoro is explored on foot, in two to three hours, without rush. Piazza della Libertà, with Palazzo Ordelaffi and the famous Column of Rings — an ancient symbol of Romagnolo hospitality, where each ring corresponded to a family welcoming travellers — is the starting point. From here, the view opens over the Po Valley to the Adriatic coast, and on clear days you can even glimpse the outline of San Marino. According to Emilia-Romagna Tourism data, Bertinoro preserves one of the region's most authentic hospitality traditions, still celebrated every September with the Hospitality Festival." },
+    { tipo: "paragrafo", testo: "The medieval Rocca dominates the village from above and now houses the Interreligious Museum, while Santa Caterina Cathedral and the Civic Tower offer other panoramic viewpoints. But the most intimate surprises are in the streets: Via della Santissima Trinità, called 'Strada della Vendemmia' (Harvest Street), is an art alley with seven canvases dedicated to grape harvest painted on walls; Via delle Mura hosts the 'Street of Lost Trades' instead, with six paintings of ancient craft traditions. These are details that tell the soul of the village better than any guidebook." },
+    
+    { tipo: "titoletto", testo: "Wine tourism and wineries: Sangiovese, Albana DOCG and the Wine Route" },
+    { tipo: "paragrafo", testo: "If in our previous articles we told you where to stay to visit Romagna wineries, here we dive into the heart of the experience. Bertinoro is a central stop on the Wine and Food Route of the Forlì-Cesena Hills, and the wineries scattered across the hills offer tastings that go beyond the glass: they're family stories, tales of land, of courageous choices. The Regional Wine Shop Cà de Bé, in the historic centre, is the ideal place for a first guided tasting of Sangiovese di Romagna and Albana DOCG, while historic wineries like Fattoria Ca' Rossa — active since 1935 among vineyards and olive groves — open their doors to visitors for tours among barrels and walks through the rows." },
+    { tipo: "paragrafo", testo: "A wine tourism weekend in Bertinoro can include a morning at the winery, lunch at an osteria along the Wine Route (where the IGP Piadina Romagnola meets local cured meats), and an afternoon dedicated to exploring rural hamlets like Polenta, where the Pieve di San Donato silently dominates the surrounding countryside. This is wine tourism Romagna in its most authentic form: slow, non-performative, deeply connected to the territory." },
+    
+    { tipo: "titoletto", testo: "Nature, trekking and trails through the vineyards of Romagna hills" },
+    { tipo: "paragrafo", testo: "For those seeking to relax in Romagna away from crowded beaches, Bertinoro offers a network of hiking and cycling trails that cross vineyards, woods and small rural villages. The routes start directly from the historic centre and wind through the hills, offering views, silences and casual encounters with local wildlife. You don't need extreme trekking equipment: comfortable shoes, a water bottle and the desire to walk without a destination are enough." },
+    { tipo: "paragrafo", testo: "The Garden of Peoples, a public park accessible from Via Mazzini, is Bertinoro's green balcony, perfect for a contemplative break. Those travelling with pets will find an ideal environment in the hilly area: many trails are pet-friendly and Casa Cavour Bertinoro welcomes dogs and cats, making the weekend an experience to share with the whole family, four-legged members included." },
+    
+    { tipo: "titoletto", testo: "Seasonal events and festivals: when to visit Bertinoro" },
+    { tipo: "paragrafo", testo: "Bertinoro lives through events that mark the seasons. In spring, the Strawberry Festival celebrates one of the territory's most beloved products with tastings, gelato and artisan cakes. In June, 'Wines and Flavours on the Street' transforms the village into a widespread market where producers and restaurateurs come outdoors. Summer brings Fricò Royal, with live music and evenings under the stars. In September, the Hospitality Festival invites visitors to lunch in local families' homes, a unique experience rooted in the medieval tradition of the rings. In October, 'Vino al Vino' closes the season with thematic tastings and dedicated menus." },
+    { tipo: "paragrafo", testo: "Those planning a wine and food weekend in Romagna can consult the events calendar on visitbertinoro.it and sagreinromagna.it to synchronize their stay with local festivals. Each event is an opportunity to enter the living fabric of the territory, not as tourists but as guests." },
+    
+    { tipo: "titoletto", testo: "Where to stay in Bertinoro: apartment with kitchen, garden and workspace" },
+    { tipo: "paragrafo", testo: "A weekend in Bertinoro deserves accommodation that respects the village's slow rhythm. Casa Cavour Bertinoro, a holiday apartment in the historic centre with views over the Romagna hills, offers everything needed for an authentic stay: a fully equipped kitchen to cook local market products, a private garden where you can have breakfast listening to silence, a dedicated workspace for those practicing remote working in Romagna who want to alternate online meetings with walks through vineyards. Self check-in with smartlock guarantees total autonomy, while welcoming pets makes the experience inclusive for those travelling with dogs or cats." },
+    { tipo: "paragrafo", testo: "It's the ideal solution for those seeking a short-term rental Bertinoro that's more than just a place to sleep: a space to recharge, cook, work, read in the garden, and feel part of the hills' rhythm. A starting point to explore not only Bertinoro, but all of Romagna: from here, Cesena is 15 minutes away, Forlì 20, Rimini 40, San Marino 35, Bologna an hour. You can getaway from Bologna without giving up connection to the main cities." },
+    
+    { tipo: "titoletto", testo: "Practical tips for a weekend in Bertinoro" },
+    { tipo: "paragrafo", testo: "Bertinoro is easily reached by car (free parking at the foot of the village) or by train (Forlì station + local bus). The historic centre is pedestrian and can be comfortably visited on foot. For wineries, booking in advance is recommended, especially on spring and autumn weekends. Bring comfortable shoes for the climbs and a light jacket: even in summer, evenings get cool. If travelling with pets, always check trail and facility accessibility." },
+    { tipo: "paragrafo", testo: "A weekend here isn't measured in attractions checked off a list, but in moments: a sunset from the Rocca, a tasting at a winery, a walk without destination through the alleys, a dinner cooked with local ingredients. It's a different way of travelling, slower and truer. And when you return home, you'll carry not just photos, but the rhythm of the Romagna hills." },
+    
+    { tipo: "titoletto", testo: "Book your weekend in Bertinoro" },
+    { tipo: "paragrafo", testo: "If you're looking for an apartment with kitchen for a short-term rental in the Romagna hills, with private garden, pet friendly accommodation and freedom to move between villages, wineries and trails, Casa Cavour Bertinoro awaits you. An authentic stay in Romagna, where hospitality is still that of the medieval rings: discreet, warm, true." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
+
+{
   id: "artigiamo-santarcangelo-april-2026",
-  titolo: "Artigiamo Craft Festival in Santarcangelo di Romagna — 18-19 April 2026",
-  data: "2026-04-17",
+  titolo: "ARTIGIAMO Craft Festival in Santarcangelo di Romagna — April 2026",
+  data: "2026-04-01",
   categoria: "events",
   sommario: "Every April, Santarcangelo di Romagna transforms into a showcase of Italian craftsmanship. ARTIGIAMO brings hundreds of master craftspeople, historic workshops, and young talents to the streets of this Romagna village. A weekend to discover tradition meeting contemporary design, just 25 minutes from Bertinoro.",
   contenuto: [
