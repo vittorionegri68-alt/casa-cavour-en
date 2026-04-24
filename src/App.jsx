@@ -706,10 +706,10 @@ function Footer() {
           </div>
           <div>
             <div style={{ fontSize: "0.67rem", letterSpacing: "0.18em", textTransform: "uppercase", color: C.textSoft, fontFamily: "'DM Sans',sans-serif", marginBottom: "0.85rem" }}>Navigate</div>
-            {[["Apartment","apartment"],["Location","location"],["Experiences","experiences"],["Reviews","reviews"],["Blog","blog"]].map(([l,id]) => (
-              <a key={l} href={`#${id}`} style={{ display: "block", color: C.textMid, textDecoration: "none", fontSize: "0.83rem", fontFamily: "'DM Sans',sans-serif", marginBottom: "0.5rem", transition: "color 0.2s" }}
+            {[["Apartment","apartment"],["Location","location"],["Experiences","experiences"],["Reviews","reviews"],["Blog","blog"],["FAQ","qa"]].map(([label, anchor]) => (
+              <a key={anchor} href={`#${anchor}`} style={{ display: "block", color: C.textMid, textDecoration: "none", fontSize: "0.83rem", fontFamily: "'DM Sans',sans-serif", marginBottom: "0.5rem", transition: "color 0.2s" }}
                 onMouseEnter={e => e.target.style.color=C.gold} onMouseLeave={e => e.target.style.color=C.textMid}>
-                {l}
+                {label}
               </a>
             ))}
           </div>
@@ -726,6 +726,10 @@ function Footer() {
         </div>
         <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: "1.5rem", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.75rem" }}>
           <div style={{ fontSize: "0.72rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif" }}>© {new Date().getFullYear()} Casa Cavour · Bertinoro · All rights reserved</div>
+          <a href="/privacy.html" style={{ fontSize: "0.72rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif", textDecoration: "none", transition: "color 0.2s" }}
+            onMouseEnter={e => e.target.style.color=C.gold} onMouseLeave={e => e.target.style.color=C.textSoft}>
+            Privacy Policy
+          </a>
           <div style={{ fontSize: "0.72rem", color: C.textSoft, fontFamily: "'DM Sans',sans-serif", letterSpacing: "0.1em" }}>WITH ♥ IN ROMAGNA</div>
         </div>
       </div>
