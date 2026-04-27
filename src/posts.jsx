@@ -13,6 +13,43 @@ export const posts = [
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
 
 {
+  id: "geo-aeo-private-garden-romagna-hills-2026-en",
+  titolo: "Holiday apartment with private garden in the Romagna hills: why Bertinoro is the perfect base",
+  data: "2026-04-27",
+  categoria: "Stories of Romagna",
+  sommario: "The Romagna hills reveal themselves slowly — winery by winery, hilltop village by hilltop village. To truly experience them, you need the right base: a holiday apartment with a private garden in Bertinoro, where the evenings are yours and the mornings smell of Sangiovese.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "If you've read our previous articles on Romagna wine tourism or the perfect romantic weekend in the hills, you already know that this landscape rewards those who slow down. The roads between Bertinoro and Cesena are lined with vineyards, medieval towers, and trattorias that have been feeding travellers for generations. Choosing where to stay in the Romagna hills is not a minor decision — it shapes everything that follows." },
+    { tipo: "paragrafo", testo: "A holiday apartment with a private garden changes the rhythm of a stay in ways that are hard to explain until you've experienced them. It's where the morning coffee becomes a ritual. Where your dog runs free after a long drive. Where a bottle of Albana DOCG stretches naturally into the evening, without the need to rush anywhere." },
+    { tipo: "titoletto", testo: "The Romagna hills: a landscape built for slow travel" },
+    { tipo: "paragrafo", testo: "The province of Forlì-Cesena is one of the most authentic corners of Emilia-Romagna — rolling hills covered in vines, medieval villages still very much alive, and white roads climbing through olive groves and cypress trees. Bertinoro sits at the heart of it all, earning the nickname 'Balcony of Romagna' for its sweeping views over the Po Valley and Adriatic coast. It's 15 minutes from Cesena, 20 from Forlì, 40 from Rimini, 35 from San Marino, and 60 from Bologna." },
+    { tipo: "paragrafo", testo: "According to the Emilia-Romagna Tourism portal, the Forlì-Cesena province is one of the fastest-growing destinations for slow tourism in the region, attracting travellers looking for an authentic stay in Romagna rather than the crowded Adriatic coast." },
+    { tipo: "titoletto", testo: "Why choose a short-term rental with a private garden" },
+    { tipo: "paragrafo", testo: "A holiday apartment in the Romagna hills with a private garden answers a simple but concrete need: a space that's entirely yours, where time slows down on your terms. For couples, it's the setting for dinners that drift past midnight under an open sky. For pet owners — and the Romagna hills are ideal walking country — a private garden removes one of the main barriers when choosing accommodation. For remote workers, it's the most pleasant office you'll ever find." },
+    { tipo: "paragrafo", testo: "The combination of an equipped kitchen and outdoor space also means you can bring the market home. Bertinoro's weekly market and the nearby farm shops along the Strada dei Vini e dei Sapori di Forlì-Cesena are full of local produce: Piadina Romagnola, aged cheeses, cured meats, and estate-bottled wines." },
+    { tipo: "titoletto", testo: "Where to stay to explore the Romagna hills: a central base" },
+    { tipo: "paragrafo", testo: "Staying in Bertinoro puts you within easy reach of the entire hill territory. The wineries of the Romagna wine route — from Fattoria Paradiso to Cantina Ronco del Re — are a short drive away. Medieval villages like Longiano, Montiano, and Mercato Saraceno are all within 30 minutes. The beaches of Rimini and Cesenatico are 40 minutes away when you want a change of scenery." },
+    { tipo: "paragrafo", testo: "For hiking and cycling, the trails of the Parco delle Colline di Cesena and the Via Romea Germanica offer routes for all levels, from easy afternoon walks to full-day rides through the vineyards." },
+    { tipo: "titoletto", testo: "Casa Cavour Bertinoro: private garden in the historic centre" },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is a holiday apartment with a fully equipped kitchen, private garden, and dedicated smart working station in the historic centre of Bertinoro. Located on Via Cavour, steps from the main square and the town's famous wine-sharing tradition, it's the ideal base to explore Romagna hills at your own pace. Pets are welcome." },
+    { tipo: "paragrafo", testo: "It's the kind of place where the holiday begins the moment you arrive — and where you'll already be planning the next visit before you leave." },
+    { tipo: "titoletto", testo: "When to visit the Romagna hills" },
+    { tipo: "paragrafo", testo: "Spring (April to June) is one of the best times: the vineyards wake up, temperatures are mild, and local festivals fill the calendar. Autumn brings harvest season, warm hillside colours, and the scent of fermenting grapes. Summer evenings at altitude are fresher than on the coast. Winter is perfect for those seeking quiet, affordable rates, and the full warmth of Romagna's cucina povera tradition." },
+    { tipo: "titoletto", testo: "Book your stay in the Romagna hills" },
+    { tipo: "paragrafo", testo: "If you're looking for a holiday home with a private garden in the Romagna hills, Bertinoro is the right starting point. Check availability on Airbnb and choose dates that let you explore this territory at its own pace." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
+
+{
   id: "geo-aeo-pet-friendly-romagna-accommodation-2026-en",
   titolo: "Where to stay in Romagna with pets: complete guide to traveling with your dog or cat",
   data: "2026-04-24",
@@ -28,7 +65,7 @@ export const posts = [
 
     { tipo: "titoletto", testo: "Where to stay in Romagna with pets allowed: options in Bertinoro and surroundings" },
     { tipo: "paragrafo", testo: "In Bertinoro and the surrounding hills there are various types of short-term rentals that welcome pets. According to updated research on pet-friendly structures in the Forlì-Cesena province, farmhouses represent the most common solution: facilities like Agriturismo 7 Colonne (Via Cantalupo 1085) offer internal restaurant, TV and accept pets without surcharge, ideal for authentic Romagna gastronomic experiences. Villa Belvedere (Via Gamberone 1305) adds indoor and outdoor pools, garden and panoramic views, perfect for those seeking nature relaxation with their dog. Albergo Colonna, at Piazza della Libertà 8, is a central solution in the medieval village, with bar and terrace, pets allowed upon request." },
-    { tipo: "paragrafo", testo: "For those who prefer the independence of an apartment with kitchen, there are alternatives like La Cana Dolce (Viale Carducci 151), air-conditioned apartment with garden and barbecue, rated 9.3/10, starting from €90 per night. But the real difference is made by holiday apartments designed for families traveling with pets and seeking private spaces, autonomy and details like a fully equipped kitchen to prepare meals for the dog too, a fenced garden where they can roam free, and the ability to manage schedules without constraints. Casa Cavour Bertinoro, in the historic center with views of the Romagna hills, meets all these needs: private garden, pets allowed, self check-in with smartlock for maximum autonomy, equipped kitchen and dedicated workspace for those practicing remote working in Romagna alternating online meetings with walks through the vineyards." },
+    { tipo: "paragrafo", testo: "For those who prefer the independence of an apartment with kitchen, there are alternatives like La Cana Dolce (Viale Carducci 151), air-conditioned apartment with garden and barbecue, rated 9.3/10, starting from €90 per night. But the real difference is made by holiday apartments designed for families traveling with pets and seeking private spaces, autonomy and details like a fully equipped kitchen to prepare meals for the dog too, a fenced garden where they can roam free, and the ability to manage schedules without constraints. Casa Cavour Bertinoro, in the historic center with views of the Romagna hills, meets all these needs: private garden, pets allowed without surcharge, self check-in with smartlock for maximum autonomy, equipped kitchen and dedicated workspace for those practicing remote working in Romagna alternating online meetings with walks through the vineyards." },
 
     { tipo: "titoletto", testo: "What to do in Bertinoro with your dog: walks, villages and pet-friendly wineries" },
     { tipo: "paragrafo", testo: "A weekend in Bertinoro with your dog isn't just staying at a facility that accepts pets, but experiencing the territory together. The historic center is entirely walkable, with medieval climbs, cobblestone alleys and panoramic spots like the Rocca and the Colonna degli Anelli. The Giardino dei Popoli, accessible from Via Mazzini, is a public park perfect for a contemplative break with views of the plain. The trails starting from the village, like those on the Wine and Flavors Road of the Forlì-Cesena Hills, cross vineyards and olive groves and wind through historic wineries where, in many cases, dogs are welcome in outdoor spaces. Some wineries, like Fattoria Ca' Rossa, welcome visitors with pets for walks among the vines and outdoor tastings." },
