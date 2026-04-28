@@ -417,14 +417,8 @@ function Testimonials() {
           {[
             { q:"A very nice little apartment, very well kept in a small hilltop village. Ideal for two couples. Great if you're coming for the yearly CISSR conference!  The kitchen is great and well stocked.", n:"Kate", o:"Baltimore, Maryland", s:5 },
             { q:"Cesare is a great host, you can arrange almost anything you desire with him, and the place was really beyond our expectations. We really had a great time there and surely are coming back :)", n:"Blaženka", o:"Kroatia", s:5 },
-            { q:"We happened to come to Bertinoro by chance and it was a nice surprise: a nice village, very quiet, beautiful view up to the sea. 
-Excellent cuisine at affordable prices, typical Romagna hospitality.
-Very kind host, always present and quick to respond; very nice and characteristic apartment, on three floors with beautiful views of the village.
-Really satisfied with the stay.", n:"Maria Ilaria", o:"Italy", s:5 },
-            { q:"We felt very comfortable in the small townhouses of Cesare.
-Everything we needed for our two-day stay was available, nice restaurants were just a stone's throw away.
-The lady you share the backyard with is super friendly.
-We will be happy to come back when we are in the area.", n:"Laura", o:"Italy", s:5 },
+            { q:"We happened to come to Bertinoro by chance and it was a nice surprise: a nice village, very quiet, beautiful view up to the sea. Excellent cuisine at affordable prices, typical Romagna hospitality. Very kind host, always present and quick to respond; very nice and characteristic apartment, on three floors with beautiful views of the village. Really satisfied with the stay.", n:"Maria Ilaria", o:"Italy", s:5 },
+            { q:"We felt very comfortable in the small townhouses of Cesare.Everything we needed for our two-day stay was available, nice restaurants were just a stone's throw away. The lady you share the backyard with is super friendly. We will be happy to come back when we are in the area.", n:"Laura", o:"Italy", s:5 },
           ].map(({q,n,o,s}) => (
             <Reveal key={n} delay={80}>
               <div style={{ background: C.cardBg, padding: "2.25rem", height: "100%", boxSizing: "border-box", transition: "background 0.3s" }}
