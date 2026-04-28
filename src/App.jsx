@@ -415,10 +415,16 @@ function Testimonials() {
         </Reveal>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(260px,1fr))", gap: "1.5px", background: C.border }}>
           {[
-            { q:"We came for a weekend and stayed a week. The apartment is stunning and Bertinoro is an incredible discovery. We have told everyone about it.", n:"Sophie & Marc", o:"Paris, France", s:5 },
-            { q:"As a digital nomad I was looking for reliable WiFi, space to work and beauty around me. Casa Cavour delivered everything. The most productive month of my life.", n:"James R.", o:"London, UK", s:5 },
-            { q:"It is not just accommodation — it is an experience. The hosts tips took us to a family winery that was not even on Google Maps.", n:"Claudia M.", o:"Munich, Germany", s:5 },
-            { q:"A perfect romantic weekend. Bertinoro at night is magical, and having our own apartment with a kitchen made everything even more special.", n:"Luca & Sara", o:"Milan, Italy", s:5 },
+            { q:"A very nice little apartment, very well kept in a small hilltop village. Ideal for two couples. Great if you're coming for the yearly CISSR conference!  The kitchen is great and well stocked.", n:"Kate", o:"Baltimore, Maryland", s:5 },
+            { q:"Cesare is a great host, you can arrange almost anything you desire with him, and the place was really beyond our expectations. We really had a great time there and surely are coming back :)", n:"Blaženka", o:"Kroatia", s:5 },
+            { q:"We happened to come to Bertinoro by chance and it was a nice surprise: a nice village, very quiet, beautiful view up to the sea. 
+Excellent cuisine at affordable prices, typical Romagna hospitality.
+Very kind host, always present and quick to respond; very nice and characteristic apartment, on three floors with beautiful views of the village.
+Really satisfied with the stay.", n:"Maria Ilaria", o:"Italy", s:5 },
+            { q:"We felt very comfortable in the small townhouses of Cesare.
+Everything we needed for our two-day stay was available, nice restaurants were just a stone's throw away.
+The lady you share the backyard with is super friendly.
+We will be happy to come back when we are in the area.", n:"Laura", o:"Italy", s:5 },
           ].map(({q,n,o,s}) => (
             <Reveal key={n} delay={80}>
               <div style={{ background: C.cardBg, padding: "2.25rem", height: "100%", boxSizing: "border-box", transition: "background 0.3s" }}
