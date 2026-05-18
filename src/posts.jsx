@@ -11,6 +11,51 @@ export const posts = [
  // ── NEW POST — Giro d'Italia Cervia 2026 ──────────────────────────────────
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
+{
+  id: "geo-aeo-smart-working-romagna-2026-en",
+  titolo: "Remote working in Romagna: the apartment with workspace in the hills of Bertinoro",
+  data: "2026-05-18",
+  categoria: "Stories of Romagna",
+  sommario: "Working remotely from the Romagna hills isn't just about fast WiFi. It's choosing a different rhythm, between vineyards and medieval villages, where every break becomes an experience. Bertinoro offers apartments with dedicated workspace, fully equipped kitchen, and an ideal base for those who want to recharge without losing their work focus.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "If in recent months we've told you how Bertinoro is a perfect base for a getaway from Bologna, for exploring Romagna wineries, or for a romantic weekend in the hills, today we add another piece: you can also work from here. Not in an anonymous coworking space, not in a hotel room, but in a holiday apartment where the workspace overlooks vineyards and your coffee break happens in a private garden, with views across the Po Valley." },
+    { tipo: "paragrafo", testo: "Remote working in Romagna means choosing a different pace. The Romagna hills are close enough to cities — 15 minutes from Cesena, 20 from Forlì, 60 from Bologna — that you don't feel isolated, yet far enough to breathe clean air and walk among the vines after your last call. Casa Cavour Bertinoro was designed with this in mind: an apartment with a fully equipped kitchen, reliable WiFi, a proper work desk where you can sit comfortably for hours, and a private garden for when you need to look away from the screen." },
+    
+    { tipo: "titoletto", testo: "Why choose Bertinoro for remote working" },
+    { tipo: "paragrafo", testo: "Bertinoro is nicknamed the 'Balcony of Romagna' for a reason: from up here you can see the sea on the horizon and, on clear days, the plain stretching to the Apennine profiles. The historic center is peaceful, with trattorias, wine bars, and a few cafés for breakfast. You won't find traffic or city noise. What you will find is a medieval village that lives according to the rhythm of wine seasons: Sangiovese, Albana DOCG, Pagadebit." },
+    { tipo: "paragrafo", testo: "According to data from Emilia-Romagna Turismo, the province of Forlì-Cesena hosts over 200 wineries open for visits, many just a few kilometers from Bertinoro. This means that after a work day you can easily reach a winery for a tasting, or walk along the trails of the Strada dei Vini e dei Sapori dei Colli di Forlì e Cesena. Remote working here isn't just about connectivity: it's having the chance to experience the territory even when you're not on holiday." },
+    
+    { tipo: "titoletto", testo: "What you really need to work remotely in a holiday apartment" },
+    { tipo: "paragrafo", testo: "Saying 'there's WiFi' isn't enough. Those who work remotely know you need: a stable connection (not just fast on paper), a real desk with a comfortable chair, quiet during calls, natural light to avoid eye strain, and the ability to manage lunch and dinner independently without depending on restaurant schedules." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro meets all these needs. The apartment has a dedicated workspace with desk, WiFi tested for video calls, windows that illuminate spaces without glare, and an equipped kitchen where you can cook what you want, when you want. Self check-in with smartlock lets you arrive anytime, without coordinating with anyone. And if you travel with your dog or cat, they're welcome: the private garden is a safe space where they can move freely." },
+    
+    { tipo: "titoletto", testo: "Short-term rental or long stay: flexibility matters" },
+    { tipo: "paragrafo", testo: "One of the most interesting aspects of short-term rental in the Romagna hills is flexibility. You can book Casa Cavour for a week, for a month, or even just a long weekend when you feel the need for a change of air. You're not tied to rigid contracts, you don't need to bring anything except your laptop: you'll find sheets, towels, washing machine, everything you need to feel at home." },
+    { tipo: "paragrafo", testo: "Many freelancers and professionals who work remotely choose Bertinoro for exactly this reason: it's close enough to cities to return when needed, but far enough to let you concentrate. And if you need a break, you can walk up to the fortress, go down to the village for an aperitivo, or simply sit in the garden with a book. The same garden where during the day you answered emails with your laptop on your knees." },
+    
+    { tipo: "titoletto", testo: "A base to explore Romagna while you work" },
+    { tipo: "paragrafo", testo: "Working from Bertinoro doesn't mean giving up exploration. Quite the opposite. On days when you finish early, or on weekends, you have Cesena within reach with its Malatestiana Library (UNESCO heritage), Forlì with the San Domenico museums, Rimini 40 minutes away, San Marino 35 minutes, Bologna an hour. If you enjoyed the article about where to stay to visit Romagna wineries, from here you can easily organize visits to historic wineries in the area, maybe on Friday afternoon after your last call." },
+    { tipo: "paragrafo", testo: "And then there are the food festivals. The Sagre in Romagna portal collects dozens of food and wine events in the province of Forlì-Cesena: wine festivals, piadina festivals, chestnut festivals in autumn. You can plan your stay to coincide with one of these events, and experience authentic Romagna while continuing to work." },
+    
+    { tipo: "titoletto", testo: "When remote working becomes a workation" },
+    { tipo: "paragrafo", testo: "The difference between remote working and workation is subtle but real. Remote working is working from somewhere other than the office. Workation is working from a place that regenerates you. Bertinoro is a workation. Because when you close your laptop, you don't find yourself in an anonymous hotel room or a personality-free apartment: you're in a medieval village in the Romagna hills, with the scent of Sangiovese rising from the vineyards, the sound of bells marking the hours, and the awareness that tomorrow, after work, you can walk to the viewpoint and watch the sea in the distance." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro isn't designed only for those seeking a food and wine weekend or a place to sleep near Forlì and Cesena. It's also designed for those who want to work in Romagna without compromising quality of life. With a kitchen to cook in, a garden to unwind, a workspace to concentrate, and a territory that welcomes you without hurry." },
+    
+    { tipo: "titoletto", testo: "Book your remote working stay in Bertinoro" },
+    { tipo: "paragrafo", testo: "If you're looking for a holiday apartment for remote working in Romagna, with spaces designed for working and living well, Casa Cavour Bertinoro is available for bookings on Airbnb. Here you'll find everything you need: connection, quiet, light, kitchen, garden. And outside the door, the Romagna hills waiting to be explored." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
 
 {
   id: "geo-aeo-private-garden-romagna-hills-2026-en",
