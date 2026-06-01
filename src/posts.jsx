@@ -12,52 +12,6 @@ export const posts = [
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
 {
-  id: "geo-aeo-where-stay-romagna-hills-2026-en",
-  titolo: "Where to stay to explore the Romagna hills: finding your base between Bertinoro, Forlì and Cesena",
-  data: "2026-05-27",
-  categoria: "Stories of Romagna",
-  sommario: "Exploring the Romagna hills works better when you have a real base to return to in the evening. Between Bertinoro, Forlì and Cesena, the choice isn't random: it depends on how you want to experience the territory.",
-  contenuto: [
-    { tipo: "paragrafo", testo: "When you travel through the Romagna hills, the question isn't just what to see, but where to put down your bags at night. We've touched on this before when talking about wineries worth visiting, villages to discover over a weekend, places to recharge away from routine. Every time, the same point comes up: you need a base that's more than just a bed — a place to leave from and return to without rushing." },
-    { tipo: "paragrafo", testo: "The hills between Forlì and Cesena aren't territory you cross absentmindedly. They're made of combed vineyards, villages that hold time suspended, ridge roads where the view stretches from the plains to the Adriatic. And Bertinoro, perched on Monte Cesubeo, is where all this takes shape. They call it the Balcony of Romagna for good reason." },
-    { tipo: "paragrafo", testo: "Staying here, in the Romagna hills, means choosing a different rhythm. It means having the freedom to move towards Cesena, Forlì, the sea or the Apennines, but also the freedom to stop, open a bottle of Sangiovese and look around without having to leave again." },
-    
-    { tipo: "titoletto", testo: "Bertinoro: the natural base in the Romagna hills" },
-    { tipo: "paragrafo", testo: "Bertinoro is the natural center for anyone who wants to stay in the hills without giving up services. According to Visit Romagna data, the village sits 15 km from Forlì, 13 km from Cesena, and from here the view reaches the coast. The fortress dominates the town, the Hospitality Column tells its story, and Piazza della Libertà is one of the most photographed panoramic points in the province of Forlì-Cesena." },
-    { tipo: "paragrafo", testo: "But Bertinoro isn't just a postcard. It's a place where you can walk between taverns and wineries, stop to eat without booking weeks in advance, and find apartments with fully equipped kitchens that let you experience the territory at your own pace. The historic center is alive, not museumified. And when evening falls, the silence is never empty: it's the hills preparing for night." },
-    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is one of those accommodations that gives you exactly this: your own space in the heart of the village, with a kitchen where you can prepare breakfast calmly, a private garden where you can sit after a day among vineyards and villages, and the freedom to come and go without schedules thanks to self check-in. It's not a hotel. It's a base." },
-    
-    { tipo: "titoletto", testo: "Forlì and Cesena: when you need a city within reach" },
-    { tipo: "paragrafo", testo: "If you prefer to stay in a city and then go up to the hills when you want, Forlì and Cesena are the two most sensible options. Forlì is 20 minutes from Bertinoro, Cesena even less. Both are on the Via Emilia, have train stations and a good choice of hotels and B&Bs. The difference is in position: Forlì projects you towards the interior, Cesena is closer to the sea." },
-    { tipo: "paragrafo", testo: "If you arrive by train or want more services available, these urban bases work. But in the evening you return to a different context: less silence, more traffic, no view of the hills. It depends on what you're looking for. For those who really want to explore the Romagna hills, staying in Bertinoro remains the most coherent choice." },
-    
-    { tipo: "titoletto", testo: "Fratta Terme and scattered agriturismos: the nature option" },
-    { tipo: "paragrafo", testo: "Fratta Terme is the thermal fraction of Bertinoro, immersed among vineyards and countryside. Here the offer is different: hotels with spas, agriturismos, structures designed for those seeking wellness and tranquility rather than nightlife. It's a good base if you want to combine hillside walks and thermal routes, but you're still minutes from the center of Bertinoro and its services." },
-    { tipo: "paragrafo", testo: "The agriturismos scattered through the hills between Forlì and Cesena are another valid option, especially if you're traveling by car and want direct contact with the countryside. They often produce wine, oil or cheese, and the hospitality is family-style. The only limit is that you're more isolated: comfortable for relaxation, less so if you want to move around every day." },
-    
-    { tipo: "titoletto", testo: "Short-term rental or hotel: which to choose in the Romagna hills" },
-    { tipo: "paragrafo", testo: "The choice between a short-term rental apartment and a hotel depends on how you want to live your stay. A hotel gives you included breakfast and standard services, but binds you to schedules. An apartment with kitchen lets you free: you can buy at Cesena's market, bring home cheeses and cured meats from a winery, cook when you want." },
-    { tipo: "paragrafo", testo: "And if you travel with animals, the question becomes even clearer. Many hotels don't accept them, or do so with surcharges and limitations. A pet-friendly apartment in the Romagna hills, like Casa Cavour Bertinoro, solves the problem: private garden, no constraints, and your dog can move around peacefully." },
-    { tipo: "paragrafo", testo: "The same goes for those working remotely. A dedicated workspace, stable WiFi and the ability to organize your days as you please make the difference. The Romagna hills are the right place to combine remote working and regeneration, but you need accommodation designed for this." },
-    
-    { tipo: "titoletto", testo: "Bertinoro as a base to explore Romagna" },
-    { tipo: "paragrafo", testo: "Bertinoro isn't just the starting point for visiting the hills. It's a strategic base for moving throughout Romagna: Rimini is 40 minutes away, San Marino 35, Bologna an hour. You can spend the morning in Ravenna among the mosaics, the afternoon in a Sangiovese winery, and evening return to the hills without driving too many kilometers." },
-    { tipo: "paragrafo", testo: "This flexibility is one of the reasons why more and more travelers choose a short-term rental in Bertinoro instead of moving every two nights. You have a home, not a hotel room. And above all you have time to breathe the territory, not just pass through it." },
-    
-    { tipo: "titoletto", testo: "Where to book to visit the Romagna hills" },
-    { tipo: "paragrafo", testo: "If you're looking for a holiday apartment in the historic center of Bertinoro, with private garden, fully equipped kitchen and self check-in, Casa Cavour Bertinoro meets all these needs. It's designed for those who want to explore the Romagna hills at their own pace, without constraints and with the freedom to experience the territory as they prefer." },
-    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
-    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
-    { tipo: "titoletto", testo: "Read also" },
-    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
-    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
-    { tipo: "titoletto", testo: "Follow us on social media" },
-    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
-    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
-  ],
-  attivo: true,
-},
-{
   id: "geo-aeo-where-to-stay-romagna-hills-2026-en",
   titolo: "Where to stay to visit the Romagna hills: Bertinoro as your base between vineyards and medieval villages",
   data: "2026-05-22",
