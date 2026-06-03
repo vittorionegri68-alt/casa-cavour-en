@@ -741,6 +741,15 @@ function Footer() {
               Airbnb ↗
             </a>
             <div style={{ marginTop: "1.25rem", fontFamily: "'DM Sans',sans-serif", fontSize: "0.74rem", color: C.textSoft, lineHeight: 1.7 }}>Available on Airbnb.<br />Up to 4 guests.</div>
+            <a href="https://search.google.com/local/writereview?placeid=ChIJv7pX_ManLBMRfb0j1GUxPbs"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "block", marginTop: "1rem", fontFamily: "'DM Sans',sans-serif", fontSize: "0.74rem", color: C.textSoft, textDecoration: "none", transition: "color 0.2s" }}
+              onMouseEnter={e => e.currentTarget.style.color = C.gold}
+              onMouseLeave={e => e.currentTarget.style.color = C.textSoft}
+            >
+              ★ Read our Google reviews
+            </a>
           </div>
         </div>
         <div style={{ borderTop: `1px solid ${C.border}`, paddingTop: "1.5rem", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.75rem" }}>
