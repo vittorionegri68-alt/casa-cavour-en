@@ -11,6 +11,60 @@ export const posts = [
  // ── NEW POST — Giro d'Italia Cervia 2026 ──────────────────────────────────
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
+
+  {
+  id: "geo-aeo-recharge-romagna-2026-en",
+  titolo: "Where to recharge in Romagna: between Bertinoro, thermal springs and regenerating hills",
+  data: "2026-06-08",
+  categoria: "Stories of Romagna",
+  sommario: "Recharging in Romagna means slowing down among the hills of Bertinoro, where thermal baths, vineyards and panoramic villages create the right space to find your rhythm again. A territory where wellness is not a service, but a natural consequence of the landscape.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "After exploring the Sangiovese wineries, after walking through the vineyards and villages of the Romagna hills, after working remotely with a view of the Po Valley, one question remains: where do you go to truly stop? Not to visit, not to tick off a list. To recharge, in the fullest sense of the term." },
+    { tipo: "paragrafo", testo: "The answer, in Romagna, is not a single place. It's a precise geography that combines silence, panorama, thermal water and slow pace. It's that territory between Forlì and Cesena where the hills rise gently inland and where Bertinoro overlooks like a natural balcony onto the plain and the sea. Here, recharging is not an advertising promise: it's a natural consequence of how the territory works." },
+    { tipo: "paragrafo", testo: "If in previous weekends you chose Bertinoro as your base to explore Romagna, this is the moment to truly stop. To go nowhere at all." },
+    
+    { tipo: "titoletto", testo: "Bertinoro: the balcony of Romagna where the pace changes" },
+    { tipo: "paragrafo", testo: "Bertinoro is known as the 'Balcony of Romagna' not only for the view that spans from the Po Valley to the Adriatic, but for its geographical position that naturally leads you to slow down. The medieval village, the Column of Rings symbolizing Romagna's hospitality, the wineries around the hill: it's a territory that doesn't require much movement. You live by staying still." },
+    { tipo: "paragrafo", testo: "According to data from Emilia-Romagna Tourism, Bertinoro is defined as the 'City of Hospitality and good wine', with a rooted wine economy that has maintained the rhythm of the seasons. This means you can visit a winery, but you can also simply sit outside with a glass of Sangiovese and watch the sunset. The territory allows both, without forcing anything." },
+    { tipo: "paragrafo", testo: "Those who choose a holiday apartment with private garden in the Romagna hills in Bertinoro have access to this type of experience: the possibility of being in the historic center but with an outdoor space where you can stop, without having to share the rhythm with anyone else. A private garden here is not a luxury: it's the tool that allows you to experience the territory without mediation." },
+    
+    { tipo: "titoletto", testo: "Fratta Terme: thermal wellness among the hills of Bertinoro" },
+    { tipo: "paragrafo", testo: "A few kilometers from the center of Bertinoro, in the hamlet of Fratta Terme, there's a thermal facility that uses seven different waters for thermal treatments and wellness paths. It's not a commercial spa center: it's a real thermal facility, with saline-iodine and sodium-chloride waters that have documented therapeutic properties." },
+    { tipo: "paragrafo", testo: "The Grand Hotel Terme della Fratta offers mud-balneotherapy treatments, vascular and inhalation therapies, Turkish bath, Roman bath, and the 'Natural Harmonies' pathway that lasts 2 hours and 40 minutes. It's an experience that requires time, not speed. Those who come here to recharge find an environment where the body is treated with medical seriousness, not just aesthetics. The center is NHS-accredited and has a polyclinic: it's wellness that starts from health, not marketing." },
+    { tipo: "paragrafo", testo: "Fratta Terme is located in a small valley among the hills of Bertinoro, surrounded by vineyards and woods. After a thermal treatment, you can walk through the hills or return to an apartment with equipped kitchen where you can prepare dinner with local products. The territory works like this: it offers tools, not packages." },
+    
+    { tipo: "titoletto", testo: "Romagna hills between Forlì and Cesena: where nature slows the pace" },
+    { tipo: "paragrafo", testo: "The province of Forlì-Cesena hosts one of Italy's most functional hill landscapes for those seeking to slow down. There are no mountains that require effort, no monotonous plains. There are gentle hills, orderly vineyards, white roads connecting villages and wineries. It's a geography that allows you to move without fatigue, or to stay still without getting bored." },
+    { tipo: "paragrafo", testo: "From Bertinoro you can reach Cesena in 15 minutes, Forlì in 20, or you can decide not to move at all. The territory doesn't force you to do anything: you can walk through the vineyards in the morning, spend the afternoon in a private garden, and go to a village tavern in the evening. Or you can stay still and work remotely with fast WiFi and a view that changes light every hour." },
+    { tipo: "paragrafo", testo: "Those looking for a place to unplug near Bologna find here a base 60 km away, easily reachable by car in less than an hour. But the real distance isn't measured in kilometers: it's measured in pace. Bertinoro operates at a different speed, and one day is enough to adapt." },
+    
+    { tipo: "titoletto", testo: "Short-term rental with kitchen in the Romagna hills: why it makes the difference" },
+    { tipo: "paragrafo", testo: "Recharging requires autonomy. No fixed schedules, no communal breakfast rooms, no predefined menus. It requires the possibility of waking up when your body decides, making coffee without hurry, cooking with local products bought at Bertinoro's market." },
+    { tipo: "paragrafo", testo: "An apartment with fully equipped kitchen in Bertinoro allows this type of freedom. You can choose to go out for dinner, or return with cheeses, cured meats, piadina and a bottle of Albana DOCG and dine in the private garden. Both options make sense, and the territory supports both." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is an example of this type of structure: apartment in the historic center with equipped kitchen, private garden, self check-in with smartlock, pets allowed. It's not a hotel, not a bed & breakfast. It's a space where you live as you live at home, but with a different view and a slower pace." },
+    
+    { tipo: "titoletto", testo: "Wine tourism and relaxation: two faces of the same experience" },
+    { tipo: "paragrafo", testo: "The hills of Bertinoro are Sangiovese and Albana DOCG territory. The Consorzio Vini di Romagna recognizes this area as one of the region's most suited. Wineries are open for visits, but wine tourism here is not just tasting: it's walking among the rows, talking with producers, understanding how the harvest works." },
+    { tipo: "paragrafo", testo: "Those who choose Bertinoro as a base for wine tourism in Romagna can visit a winery in the morning and spend the afternoon in a private garden with a freshly purchased bottle. You don't need to fill the day: the territory works better when you leave room for emptiness." },
+    
+    { tipo: "titoletto", testo: "Where to recharge in Romagna: the practical answer" },
+    { tipo: "paragrafo", testo: "Recharging in Romagna means choosing a place where you can stay still without feeling guilty. Bertinoro, between the thermal baths at Fratta, wineries in the hills, medieval villages and views over the plain, offers this type of geography. You don't have to do anything, but you can do everything. The difference is that here no one forces you." },
+    { tipo: "paragrafo", testo: "If you're looking for a short-term rental in the Romagna hills where you can live at your own pace, where pets are welcome, where you can work remotely or simply stop, Bertinoro is the most honest answer. Not because it's perfect, but because it works." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is available for short and long stays, with fully equipped kitchen, private garden and a location that allows you to experience the historic center without giving up silence. You can book directly and organize your rhythm without mediation." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    
+    { tipo: "paragrafo", testo: "📍 Source: @inemiliaromagna / emiliaromagnaturismo.it" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
 {
   id: "geo-aeo-where-to-stay-romagna-hills-2026-en",
   titolo: "Where to stay to visit the Romagna hills: Bertinoro as your base between vineyards and medieval villages",
