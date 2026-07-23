@@ -12,6 +12,59 @@ export const posts = [
   // Add this block to the posts[] array in src/posts.js
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
 
+{
+  id: "geo-aeo-weekend-vendemmia-romagna-2026-en",
+  titolo: "Where to stay for a harvest weekend in Romagna: Bertinoro among vineyards and wineries",
+  data: "2026-07-23",
+  categoria: "Stories of Romagna",
+  sommario: "A harvest weekend in the Romagna hills of Bertinoro is a chance to experience the territory from within: walking among the vines, tasting Sangiovese and Albana DOCG in the cellar, and returning in the evening to an apartment with a fully equipped kitchen where you can cook with local products.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "If you've read our article on where to stay to visit Romagna wineries, you already know that Bertinoro is the heart of Romagna wine tourism. But a harvest weekend is different. It's not just about tasting: it's about getting your hands in the grapes, smelling the must, seeing a year's work concentrated into a few decisive weeks." },
+    { tipo: "paragrafo", testo: "In September and October, the Romagna hills around Bertinoro light up with activity. Wineries open their doors for hands-on experiences among the vines, many agriturismi organize guided harvest days, and the air has that sweet, dense flavor that anticipates new wine. To experience all this you need a base: a place to return in the evening with hands still dirty from earth, open a bottle bought at the winery and sit outside without hurry." },
+    { tipo: "paragrafo", testo: "Bertinoro is that base. 15 minutes from Cesena, 20 from Forlì, 60 from Bologna. Close enough to everything, far enough from the noise. And with a tradition of hospitality that's not just folklore: the Column of Rings in the square, where each ring corresponded to a family ready to welcome travelers, is still there." },
+    
+    { tipo: "titoletto", testo: "Harvest in Romagna: what it really means" },
+    { tipo: "paragrafo", testo: "The harvest isn't scenery. It's real work, done early in the morning when the grapes are still fresh with dew. But many wineries in the Romagna hills — especially in Forlì-Cesena province — have understood that letting people touch the process firsthand is the best way to tell the story of the territory. According to Emilia-Romagna Tourism data, Forlì-Cesena province hosts over 200 wineries open to visitors, many of which organize harvest experiences between late August and October." },
+    { tipo: "paragrafo", testo: "Sangiovese di Romagna DOC and Albana di Romagna DOCG grow here, on the clay hills that slope down toward the Po Valley. Albana was the first Italian white wine to obtain DOCG status, and Bertinoro is one of its symbolic territories. Walking among the vines during this period means seeing what you'll later drink: ready clusters, full crates, the sweet smell of freshly pressed must." },
+    
+    { tipo: "titoletto", testo: "Where to stay: short-term rental with kitchen in the Romagna hills" },
+    { tipo: "paragrafo", testo: "For a harvest weekend you need accommodation that leaves you free. Casa Cavour Bertinoro is a holiday apartment in Bertinoro's historic center, with a fully equipped kitchen, private garden, and everything needed to experience the territory without depending on schedules or restaurants. Self check-in with smartlock, so you arrive when you want. Dedicated workspace if you need to alternate harvest with remote working. Pets allowed, if your dog or cat travels with you." },
+    { tipo: "paragrafo", testo: "The kitchen is the real strength: you can buy cured meats, cheeses, bread and vegetables at markets or village shops and cook what you find. The private garden is the right place to end the day with a glass and no one around. The central location puts you 5 minutes' walk from Piazza della Libertà, the area's most famous viewpoint, from which you can see the sea on clear days." },
+    
+    { tipo: "titoletto", testo: "Wineries to visit and harvest experiences" },
+    { tipo: "paragrafo", testo: "The Bertinoro hills are full of family wineries and historic estates. Many are located along the Wine and Flavors Route of Forlì-Cesena, a food and wine path that crosses villages, vineyards, and production sites. During harvest, some wineries organize tastings with vineyard visits, dinners among the vines, or guided picking experiences where you cut the clusters, carry crates to the cellar, and follow the first steps of winemaking." },
+    { tipo: "paragrafo", testo: "As we told in the article on where to stay for a food and wine weekend in Romagna, each winery has its own personality. Some are small and do everything by hand, others more structured but always rooted in tradition. The best approach is to plan one or two visits per day, leaving the rest of the time to walk, eat well, or simply be still." },
+    
+    { tipo: "titoletto", testo: "What to do beyond the harvest: villages, festivals and relax" },
+    { tipo: "paragrafo", testo: "A harvest weekend in Romagna isn't just wine. Bertinoro is a medieval village with narrow alleys, authentic taverns, and a history you can touch. The Column of Hospitality in the square is the symbol of a tradition: each ring corresponded to a family willing to welcome arrivals. It's still there, still works — in the sense that Bertinoro is a place where people talk to you, advise you, make you feel at home." },
+    { tipo: "paragrafo", testo: "In September and October, village festivals fill the calendar. The Sagre in Romagna portal collects all events in Forlì-Cesena province: harvest festivals, new wine celebrations, local product markets. It's the right time to taste piadina, cappelletti, grilled meats, and everything Romagna cuisine does best." },
+    { tipo: "paragrafo", testo: "If you want to walk, the panoramic trails around Bertinoro cross vineyards, clay hills, and woods. You can download tracks from the Visit Bertinoro website, which collects walking and cycling itineraries with maps and directions. And if you want to combine harvest and relaxation, Fratta Terme — a spa town in Bertinoro municipality — is just minutes away, surrounded by vineyards." },
+    
+    { tipo: "titoletto", testo: "How much time you need and how to organize the weekend" },
+    { tipo: "paragrafo", testo: "Two days are enough to experience a harvest weekend without rushing. Saturday morning you arrive, check in (no need to meet: the smartlock lets you enter when you want), and leave immediately for a winery booked in advance. The afternoon you spend in Bertinoro, between historic center and viewpoint. In the evening you cook in the apartment with what you bought during the day, or go out to one of the village taverns." },
+    { tipo: "paragrafo", testo: "Sunday morning is perfect for a walk among the vineyards or to visit another winery. Lunch at an agriturismo in the hills — many structures like Agriturismo 7 Colonne or Agriturismo al Colle offer typical Romagna meals with local products — then return. Simple, without rigid schedules. As we told in the article on where to get away from routine near Bologna, it's precisely this slow pace that makes the difference." },
+    
+    { tipo: "titoletto", testo: "Why an apartment with private garden changes everything" },
+    { tipo: "paragrafo", testo: "After a day among vineyards, wineries and trails, returning to an apartment with a private garden isn't a detail. It's the space where you truly stop, without sharing anything with anyone. Opening a bottle bought at the winery, sitting outside, listening to the silence of the hills. As we recounted in the article on holiday home with private garden in the Romagna hills, the garden changes the rhythm of an entire journey." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is designed for this: a solid base from which to explore the territory, but also a place where you can feel good without going out. Fully equipped kitchen to cook with local products, dedicated workspace if you work remotely, pets allowed. Everything designed for those who travel without hurry and want to experience Romagna as those who live there do." },
+    
+    { tipo: "titoletto", testo: "Book your harvest weekend in Bertinoro" },
+    { tipo: "paragrafo", testo: "If September or October calls you toward the Romagna hills, you know where to go. Bertinoro is the right base for experiencing a real harvest weekend, without artifice. Casa Cavour awaits you with equipped kitchen, private garden, and all the space needed to recharge between one glass and another." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
+    
+    { tipo: "paragrafo", testo: "📍 Source: @inemiliaromagna / emiliaromagnaturismo.it" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
+
   {
   id: "geo-aeo-recharge-romagna-2026-en",
   titolo: "Where to recharge in Romagna: between Bertinoro, thermal springs and regenerating hills",
