@@ -13,6 +13,65 @@ export const posts = [
   // Also upload src/assets/Cervia_1.png and src/assets/Cervia_2.png to GitHub
 
 {
+  id: "geo-aeo-wine-tourism-romagna-where-stay-2026-en",
+  titolo: "Wine Tourism in Romagna: Where to Stay to Visit the Wineries Around Bertinoro and the Forlì-Cesena Hills",
+  data: "2026-08-17",
+  categoria: "Stories of Romagna",
+  sommario: "In the Romagna hills around Bertinoro, wine tourism isn't just about visiting cellars. It's waking up among vineyards, dining in the borgo, and discovering that where you sleep changes how you experience Sangiovese and Albana DOCG.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "In previous articles we've talked about the Wine Road and the Romagna wineries worth visiting, about food and wine weekends between Sangiovese and piadina, about the slow rhythm of these hills. But there's one question that always comes up: where should you stay to truly experience wine tourism in Romagna — not as a passing tourist, but as a guest of this territory?" },
+    { tipo: "paragrafo", testo: "The answer isn't obvious. You could choose a hotel on the coast and drive up to the hills each day. Or you could do what experienced wine tourists do: set your base right in the heart of the vineyards, in Bertinoro, and from there explore wineries, villages and restaurants without ever losing the thread of the experience." },
+    { tipo: "paragrafo", testo: "According to Emilia-Romagna Tourism data, the Forlì-Cesena province hosts dozens of wineries open to visitors, concentrated especially on the hills between Bertinoro, Predappio and Mercato Saraceno. But it's precisely Bertinoro — recognized as both City of Wine and City of Hospitality — that serves as the most strategic starting point for those wanting to experience authentic Romagna wine tourism." },
+    
+    { tipo: "titoletto", testo: "Why Bertinoro Is the Ideal Base for Wine Tourism in Romagna" },
+    { tipo: "paragrafo", testo: "Bertinoro isn't just a pretty village to photograph. It's a living center where viticulture is part of daily life. The wineries are scattered along via Cellaimo, via Cappuccini, via Palmeggiana: street names that hide historic estates, hillside vineyards, tastings with views stretching from the Po Valley to the Adriatic Sea." },
+    { tipo: "paragrafo", testo: "Staying in Bertinoro means you're already inside the landscape of Sangiovese and Albana DOCG. In the morning you head out, choose a winery to visit — perhaps the one you spotted the evening before from your holiday apartment's garden — and in the afternoon you return for an aperitivo in the piazza. No rushing around, no pointless drives. Just the right rhythm to truly understand what wine tourism means in these hills." },
+    { tipo: "paragrafo", testo: "From Bertinoro you reach Cesena in 15 minutes, Forlì in 20, Rimini in 40. But the real strength of this position is something else: you can base yourself here and move in a radius toward other wineries in the province, without having to sleep in a different place every night. It's the logic of quality short-term rental: an apartment with a fully equipped kitchen becomes your anchor point, while the territory changes every day." },
+    
+    { tipo: "titoletto", testo: "Where to Stay Among the Vineyards: Hill Hamlets and Agriturismos" },
+    { tipo: "paragrafo", testo: "If you want an even more immersive experience, Bertinoro's hamlets — Fratta Terme, Polenta, Santa Maria Nuova — offer agriturismos and wine estates with rooms. Some of these places have the cellar just steps from the door, others have a private garden looking directly onto the rows of vines." },
+    { tipo: "paragrafo", testo: "This type of accommodation works especially well for couples or those traveling with pets. The agriturismo formula in Romagna isn't just rural hospitality: it's the chance to speak directly with the wine producers, to understand how a bottle of Sangiovese Superiore is born, to taste new olive oil at breakfast." },
+    { tipo: "paragrafo", testo: "For those who prefer the freedom of an independent apartment, Casa Cavour Bertinoro — in the historic center of the village — offers a fully equipped kitchen, dedicated workspace for remote workers, private garden and self check-in with smartlock. It's the solution for those who want to live Bertinoro as a temporary resident, not as a passing guest." },
+    
+    { tipo: "titoletto", testo: "Wineries to Visit Starting from Bertinoro" },
+    { tipo: "paragrafo", testo: "The territory of Bertinoro and the Forlì-Cesena hills is dotted with historic wineries and small producers. Some are family businesses that open by appointment, others are part of the Wine and Food Route of Forlì-Cesena and organize guided visits year-round." },
+    { tipo: "paragrafo", testo: "Among the most interesting experiences, the Historic Reserve of Romagna Sangiovese — opened during the European Wine Tourism Day — allows you to taste historic vintages of Sangiovese directly in Bertinoro. It's a rare opportunity that transforms the winery visit into a true vertical journey through the timeline of Romagna wine." },
+    { tipo: "paragrafo", testo: "Other wineries to note: those along via Loreta in Fratta Terme, those in the Colombarone and Tombetta areas. Each producer has a different story, but the common thread is always the same: the direct relationship between land, vineyard and bottle. Here wine tourism isn't marketing, it's simply the way of life." },
+    
+    { tipo: "titoletto", testo: "Food and Wine Events: When to Come to Bertinoro" },
+    { tipo: "paragrafo", testo: "If you want to experience wine tourism in Romagna in festival mode, mark 'Wines and Flavors in the Street' on your calendar — each June it transforms the village of Bertinoro into one big distributed tasting. Tasting stands, traditional dishes, live music: it's the chance to sample multiple wineries in a single afternoon, right in the historic center's streets." },
+    { tipo: "paragrafo", testo: "In autumn, the European Wine Tourism Day brings guided tours, vertical tastings and special openings to the wineries. Bertinoro participates with the 'Wine Knowledge' tour, combining the village's history, hospitality tradition and wine culture. It's the right moment for those who want to truly understand what City of Wine means, not just read it on a plaque." },
+    
+    { tipo: "titoletto", testo: "What to Do Beyond the Wineries" },
+    { tipo: "paragrafo", testo: "Wine tourism in Romagna doesn't end with cellar visits. In Bertinoro you can walk to the Column of the Rings, symbol of the ancient hospitality tradition, look out from the panoramic square facing the coast, dine in one of the village osterias where Sangiovese is drunk in company, not in religious silence." },
+    { tipo: "paragrafo", testo: "If you're traveling with a dog or cat, the hills around Bertinoro offer unpaved trails perfect for walks among the vineyards. It's a territory suited to slow rhythms, for those who want to alternate structured visits with moments of pure relaxation." },
+    { tipo: "paragrafo", testo: "For remote workers, the combination of dedicated workspace plus wine tourism works surprisingly well. In the morning you close a few calls, in the afternoon you visit a winery, in the evening you cook with products bought at the market. It's remote working in Romagna in its most balanced form." },
+    
+    { tipo: "titoletto", testo: "How to Organize Your Stay" },
+    { tipo: "paragrafo", testo: "For a food and wine weekend, two nights in Bertinoro is the minimum. The first day you dedicate to the village and a nearby winery, the second you venture out to explore — perhaps toward Predappio or the Cesena hills. If you have more time, three or four days allow you to add a stop on the coast or a visit to San Marino, just 35 minutes from Bertinoro." },
+    { tipo: "paragrafo", testo: "The choice of accommodation depends on what you're looking for. If you want total independence, a fully equipped kitchen and the ability to come and go without schedules, an apartment in the historic center is the best solution. If instead you prefer direct contact with a producer, aim for wine estates that also offer rooms." },
+    { tipo: "paragrafo", testo: "In both cases, book in advance — especially if you're coming during wine events or harvest weekends. Bertinoro is small, and the best places fill up quickly." },
+    
+    { tipo: "titoletto", testo: "Bertinoro as a Base, Not Just a Stop" },
+    { tipo: "paragrafo", testo: "What makes Bertinoro different from other wine tourism destinations is exactly this: it's not a place where you rush through for one night. It's a base to leave from, return to, recharge between visits. Staying here changes how you experience wine tourism in Romagna, because it puts you in a position to slow down without missing opportunities." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro is designed exactly for this type of stay: an apartment in the heart of the village, with private garden, complete kitchen, workspace if needed, and the freedom to organize your days as you prefer. It's short-term rental in the Romagna hills in its most functional and least intrusive form." },
+    { tipo: "paragrafo", testo: "If you're planning a trip among Romagna's wineries, the question isn't just which ones to visit. It's also where to return in the evening, where to open that bottle you bought, where to sit outside without hurry. And for this, Bertinoro is the right place." },
+    
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book Casa Cavour on Airbnb" },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles about the territory" },
+    
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://www.casa-cavour.com/#blog" },
+    
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+},
+
+{
   id: "geo-aeo-weekend-vendemmia-romagna-2026-en",
   titolo: "Where to stay for a harvest weekend in Romagna: Bertinoro among vineyards and wineries",
   data: "2026-07-23",
