@@ -29,9 +29,19 @@ export const qanda = [
     risposta: "It's the ideal choice. You're in the heart of Romagna's wine and food culture — just minutes from the wineries of Predappio, the trattorias of Bertinoro and the local farmers' markets. The fully equipped kitchen completes the experience.",
   },
   {
-    id: "esplorare-romagna",
-    domanda: "Can I easily explore all of Romagna from Casa Cavour?",
-    risposta: "Yes. Bertinoro's location is strategic: Ravenna is 40 km away, Rimini 60 km, San Marino 50 km, Bologna 70 km. Casa Cavour is the perfect starting point for an itinerary covering the sea, the hills and art cities.",
+    id: "cosa-fare-bertinoro",
+    domanda: "What to do in Bertinoro over a weekend?",
+    risposta: "The historic centre can be explored on foot in a few hours, between the Rocca fortress, the Colonna delle Anelle and the panoramic viewpoint over the Po Valley. Nearby you'll find the wineries along the Wine and Food Route and the villages of Polenta, Meldola and Longiano. Casa Cavour is the practical base for combining both: a fully equipped kitchen to bring home wine and local produce, and self check-in that leaves your return time free after dinner at a trattoria or a wine tasting that runs long.",
+  },
+  {
+    id: "giardino-privato",
+    domanda: "Does Casa Cavour have a private garden in the Romagna hills?",
+    risposta: "Yes. The garden is private and exclusive to the apartment, not shared with other units, with a table and chairs for eating outdoors. It's useful for a couple's dinner without a reservation, for letting your dog roam freely, or simply for enjoying the Romagna hills without leaving the house. It's just steps from the historic centre of Bertinoro, so it's not isolated the way many agriturismi with more land but fewer nearby services can be.",
+  },
+  {
+    id: "animali-ammessi",
+    domanda: "Does Casa Cavour accept pets in Romagna?",
+    risposta: "Yes, at no extra charge. The private garden lets your dog move freely, the equipped kitchen makes it easy to manage your pet's meals too, and self check-in with a smart lock removes the stress of rigid arrival times after a long car journey. The location in the historic centre of Bertinoro means you can go straight out for a walk from your front door.",
   },
   {
     id: "staccare-bologna",
@@ -52,10 +62,5 @@ export const qanda = [
     id: "smart-working",
     domanda: "Is Casa Cavour suitable for working remotely for a few days?",
     risposta: "Yes. The apartment has wifi, comfortable spaces and a fully equipped kitchen so you can manage meals independently. Work with views over the Romagna hills, and after working hours you have an extraordinary territory to explore.",
-  },
-  {
-    id: "appartamento-cucina",
-    domanda: "Is there an apartment with a kitchen for short-term rental in Bertinoro?",
-    risposta: "Casa Cavour is exactly that — a charming apartment in the historic centre of Bertinoro with a fully equipped kitchen, ideal for quality short stays. You can book directly on Airbnb.",
   },
 ];
