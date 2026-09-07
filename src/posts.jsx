@@ -97,7 +97,9 @@ export const posts = [
     { tipo: "titoletto", testo: "What to do beyond the harvest: villages, festivals and relax" },
     { tipo: "paragrafo", testo: "A harvest weekend in Romagna isn't just wine. Bertinoro is a medieval village with narrow alleys, authentic taverns, and a history you can touch. The Column of Hospitality in the square is the symbol of a tradition: each ring corresponded to a family willing to welcome arrivals. It's still there, still works — in the sense that Bertinoro is a place where people talk to you, advise you, make you feel at home." },
     { tipo: "paragrafo", testo: "In September and October, village festivals fill the calendar. The Sagre in Romagna portal collects all events in Forlì-Cesena province: harvest festivals, new wine celebrations, local product markets. It's the right time to taste piadina, cappelletti, grilled meats, and everything Romagna cuisine does best." },
+    { tipo: "link", testo: "https://www.sagreinromagna.it/", etichetta: "Source: Sagre in Romagna" },
     { tipo: "paragrafo", testo: "If you want to walk, the panoramic trails around Bertinoro cross vineyards, clay hills, and woods. You can download tracks from the Visit Bertinoro website, which collects walking and cycling itineraries with maps and directions. And if you want to combine harvest and relaxation, Fratta Terme — a spa town in Bertinoro municipality — is just minutes away, surrounded by vineyards." },
+    { tipo: "link", testo: "https://www.visitbertinoro.it/", etichetta: "Source: Visit Bertinoro" },
     
     { tipo: "titoletto", testo: "How much time you need and how to organize the weekend" },
     { tipo: "paragrafo", testo: "Two days are enough to experience a harvest weekend without rushing. Saturday morning you arrive, check in (no need to meet: the smartlock lets you enter when you want), and leave immediately for a winery booked in advance. The afternoon you spend in Bertinoro, between historic center and viewpoint. In the evening you cook in the apartment with what you bought during the day, or go out to one of the village taverns." },
@@ -112,7 +114,7 @@ export const posts = [
     { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
     { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
     
-    { tipo: "paragrafo", testo: "📍 Source: @inemiliaromagna / emiliaromagnaturismo.it" },
+    { tipo: "link", testo: "https://www.emiliaromagnaturismo.it/", etichetta: "📍 Source: inEmiliaRomagna / Emilia-Romagna Turismo" },
     
     { tipo: "titoletto", testo: "Read also" },
     { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
@@ -166,7 +168,7 @@ export const posts = [
     { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
     { tipo: "link", testo: "https://www.casa-cavour.com/#blog", etichetta: "Discover more articles" },
     
-    { tipo: "paragrafo", testo: "📍 Source: @inemiliaromagna / emiliaromagnaturismo.it" },
+    { tipo: "link", testo: "https://www.emiliaromagnaturismo.it/", etichetta: "📍 Source: inEmiliaRomagna / Emilia-Romagna Turismo" },
     
     { tipo: "titoletto", testo: "Read also" },
     { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
@@ -228,7 +230,7 @@ export const posts = [
     { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
     { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
     
-    { tipo: "paragrafo", testo: "📍 Source: @inemiliaromagna / emiliaromagnaturismo.it" },
+    { tipo: "link", testo: "https://www.emiliaromagnaturismo.it/", etichetta: "📍 Source: inEmiliaRomagna / Emilia-Romagna Turismo" },
   ],
   attivo: true,
 },
@@ -245,6 +247,7 @@ export const posts = [
     { tipo: "titoletto", testo: "Why choose Bertinoro for remote working" },
     { tipo: "paragrafo", testo: "Bertinoro is nicknamed the 'Balcony of Romagna' for a reason: from up here you can see the sea on the horizon and, on clear days, the plain stretching to the Apennine profiles. The historic center is peaceful, with trattorias, wine bars, and a few cafés for breakfast. You won't find traffic or city noise. What you will find is a medieval village that lives according to the rhythm of wine seasons: Sangiovese, Albana DOCG, Pagadebit." },
     { tipo: "paragrafo", testo: "According to data from Emilia-Romagna Turismo, the province of Forlì-Cesena hosts over 200 wineries open for visits, many just a few kilometers from Bertinoro. This means that after a work day you can easily reach a winery for a tasting, or walk along the trails of the Strada dei Vini e dei Sapori dei Colli di Forlì e Cesena. Remote working here isn't just about connectivity: it's having the chance to experience the territory even when you're not on holiday." },
+    { tipo: "link", testo: "https://www.emiliaromagnaturismo.it/", etichetta: "Source: Emilia-Romagna Turismo" },
     
     { tipo: "titoletto", testo: "What you really need to work remotely in a holiday apartment" },
     { tipo: "paragrafo", testo: "Saying 'there's WiFi' isn't enough. Those who work remotely know you need: a stable connection (not just fast on paper), a real desk with a comfortable chair, quiet during calls, natural light to avoid eye strain, and the ability to manage lunch and dinner independently without depending on restaurant schedules." },
@@ -257,6 +260,7 @@ export const posts = [
     { tipo: "titoletto", testo: "A base to explore Romagna while you work" },
     { tipo: "paragrafo", testo: "Working from Bertinoro doesn't mean giving up exploration. Quite the opposite. On days when you finish early, or on weekends, you have Cesena within reach with its Malatestiana Library (UNESCO heritage), Forlì with the San Domenico museums, Rimini 40 minutes away, San Marino 35 minutes, Bologna an hour. If you enjoyed the article about where to stay to visit Romagna wineries, from here you can easily organize visits to historic wineries in the area, maybe on Friday afternoon after your last call." },
     { tipo: "paragrafo", testo: "And then there are the food festivals. The Sagre in Romagna portal collects dozens of food and wine events in the province of Forlì-Cesena: wine festivals, piadina festivals, chestnut festivals in autumn. You can plan your stay to coincide with one of these events, and experience authentic Romagna while continuing to work." },
+    { tipo: "link", testo: "https://www.sagreinromagna.it/", etichetta: "Source: Sagre in Romagna" },
     
     { tipo: "titoletto", testo: "When remote working becomes a workation" },
     { tipo: "paragrafo", testo: "The difference between remote working and workation is subtle but real. Remote working is working from somewhere other than the office. Workation is working from a place that regenerates you. Bertinoro is a workation. Because when you close your laptop, you don't find yourself in an anonymous hotel room or a personality-free apartment: you're in a medieval village in the Romagna hills, with the scent of Sangiovese rising from the vineyards, the sound of bells marking the hours, and the awareness that tomorrow, after work, you can walk to the viewpoint and watch the sea in the distance." },
@@ -330,6 +334,7 @@ export const posts = [
 
     { tipo: "titoletto", testo: "Why choose the Romagna hills for a pet-friendly stay" },
     { tipo: "paragrafo", testo: "The hills of Bertinoro, with their vineyards of Sangiovese and Albana DOCG, offer an environment naturally suited to pets. The trekking paths that start from the historic center cross countryside, woods and small rural villages like Polenta, where the Pieve di San Donato silently dominates the surrounding fields. Long car trips aren't necessary: many walks begin directly from the village center, and the routes are accessible even for dogs of all sizes. According to Emilia-Romagna Turismo data, the province of Forlì-Cesena boasts over 150 km of marked trails among the hills, many of which are pet-friendly and well-maintained." },
+    { tipo: "link", testo: "https://www.emiliaromagnaturismo.it/", etichetta: "Source: Emilia-Romagna Turismo" },
     { tipo: "paragrafo", testo: "But it's not just about green spaces. Bertinoro, called 'the Balcony of Romagna' for its views spanning from the Po Valley to the Adriatic, maintains an authentic character where animals aren't an exception but part of daily life. Walking with your dog through the historic center streets, stopping at an artisan shop or sitting in a quiet corner of the Giardino dei Popoli is normal, without the anxiety of having to justify yourself or hide. This naturalness is also reflected in the accommodations, where pet-friendly hospitality isn't a slogan but an established practice." },
 
     { tipo: "titoletto", testo: "Where to stay in Romagna with pets allowed: options in Bertinoro and surroundings" },
@@ -346,6 +351,7 @@ export const posts = [
 
     { tipo: "titoletto", testo: "Bertinoro as a base to explore pet-friendly Romagna" },
     { tipo: "paragrafo", testo: "Bertinoro isn't just a destination in itself, but a strategic base to explore all of Romagna with your pet. In 15 minutes you'll find Cesena, with its historic center and the Malatestiana Library, UNESCO Heritage; in 20 minutes Forlì, with Piazza Saffi and city museums. Rimini, with its dog-friendly beaches, is 40 minutes away, while San Marino is 35 minutes. Bologna, for those seeking an escape from routine near the city, is 60 km away, about an hour by car. According to Visit Bertinoro, the village maintains a central position relative to the main tourist itineraries of Romagna, while preserving the quiet character of the hills — a rare balance." },
+    { tipo: "link", testo: "https://www.visitbertinoro.it/", etichetta: "Source: Visit Bertinoro" },
     { tipo: "paragrafo", testo: "For those who read our article about getting away from routine near Bologna, adding the pet-friendly element makes the experience even more complete: you don't have to leave the dog at home, you don't have to compromise on accommodation quality. You can recharge in the Romagna hills, visit wineries, discover medieval villages and share everything with your pet, without compromises." },
 
     { tipo: "titoletto", testo: "Practical tips for a pet-friendly stay in Bertinoro" },
@@ -392,6 +398,8 @@ export const posts = [
     { tipo: "titoletto", testo: "Seasonal events and festivals: when to visit Bertinoro" },
     { tipo: "paragrafo", testo: "Bertinoro lives through events that mark the seasons. In spring, the Strawberry Festival celebrates one of the territory's most beloved products with tastings, gelato and artisan cakes. In June, 'Wines and Flavours on the Street' transforms the village into a widespread market where producers and restaurateurs come outdoors. Summer brings Fricò Royal, with live music and evenings under the stars. In September, the Hospitality Festival invites visitors to lunch in local families' homes, a unique experience rooted in the medieval tradition of the rings. In October, 'Vino al Vino' closes the season with thematic tastings and dedicated menus." },
     { tipo: "paragrafo", testo: "Those planning a wine and food weekend in Romagna can consult the events calendar on visitbertinoro.it and sagreinromagna.it to synchronize their stay with local festivals. Each event is an opportunity to enter the living fabric of the territory, not as tourists but as guests." },
+    { tipo: "link", testo: "https://www.visitbertinoro.it/", etichetta: "Visit Bertinoro" },
+    { tipo: "link", testo: "https://www.sagreinromagna.it/", etichetta: "Sagre in Romagna" },
     { tipo: "titoletto", testo: "For those planning a weekend in Bertinoro, food-and-wine or exploratory" },
     { tipo: "paragrafo", testo: "Anyone planning a weekend in Bertinoro, whether focused on wineries and piadina or more generally on what to do in the village, usually needs the same two things: accommodation where they can store and cook what they buy during the day (wine, cheese, cured meats), and the freedom to return without fixed hours after dinner at an osteria or a tasting that runs long." },
     { tipo: "paragrafo", testo: "Casa Cavour answers with a fully equipped kitchen, a private garden to open the bottle bought at the winery, and self check-in with a smart lock that leaves your return time free. It works just as well for a food-and-wine weekend as for a weekend spent simply exploring the village." },
@@ -433,6 +441,7 @@ export const posts = [
     { tipo: "paragrafo", testo: "Santarcangelo is a 35-minute drive from Bertinoro, where Casa Cavour offers an apartment with a fully equipped kitchen — an ideal base to explore Romagna. The village is small and walkable in 2-3 hours. Parking is signposted along via Trasversale Marecchia and via del Mare, about 5-10 minutes on foot from the historic center. The festival opens Saturday and Sunday from 10am to 7pm. Tip: arrive in the morning to avoid afternoon crowds. If you stay until sunset, climb up to the Rocca Malatestiana — the view over the Romagna hills to the Adriatic is remarkable. Entry to the fortress is free." },
     { tipo: "titoletto", testo: "What to see beyond the festival" },
     { tipo: "paragrafo", testo: "Santarcangelo has a life beyond ARTIGIAMO. The tufa caves — ancient underground spaces carved into the soft stone — are visitable by reservation (info on visitbertinoro.it). The center is rich with year-round artisan shops: paper mills with handmade stock, ceramic workshops, small art galleries. If you're looking for something more intimate than the Riviera Romagnola, this area offers slower rhythms and a living craft tradition. From here it's easy to reach Rimini (15 minutes), Cesena (20 minutes), or the wineries along the Strada dei Vini e dei Sapori for a complete wine tourism experience. According to official regional tourism data, Romagna surpassed pre-Covid levels in 2025, driven precisely by proximity tourism and widespread cultural events like ARTIGIAMO." },
+    { tipo: "link", testo: "https://www.visitbertinoro.it/", etichetta: "Source: Visit Bertinoro" },
   ],
   attivo: true,
 },
@@ -757,55 +766,68 @@ export const posts = [
   },
   {
     id: "5-things-to-do-bertinoro",
-    titolo: "5 things to do in Bertinoro in a weekend",
+    titolo: "Bertinoro in a weekend: the practical checklist of 5 stops",
     data: "2025-03-10",
-    categoria: "Local guide",
-    sommario: "Bertinoro is not just the Balcony of Romagna — it is a medieval village full of authentic experiences. Here are 5 things not to miss during your stay.",
+    categoria: "Practical guide",
+    sommario: "The 5 essential stops for a weekend in Bertinoro, with walking or driving times, suggested time slots and what to book in advance. The practical version, as a checklist, so nothing is left to chance.",
     contenuto: [
       {
         tipo: "paragrafo",
-        testo: "Bertinoro is one of those places that always surprises you. Just 15 minutes from Cesena, this medieval village perched on the Romagna hills offers breathtaking views of the Adriatic and an authentic atmosphere far from mass tourism."
+        testo: "Five stops, a historic centre you can cover entirely on foot, no car needed once you have parked. Here is how to plan them in order, with travel times and practical notes."
       },
       {
         tipo: "titoletto",
-        testo: "1. Stroll through the historic centre"
+        testo: "1. Historic centre and Column of Hospitality"
       },
       {
         tipo: "paragrafo",
-        testo: "The streets of Bertinoro's historic centre are a fascinating maze of medieval alleys, historic palaces and panoramic views. The Column of Hospitality — an iron ring where visitors were invited to tie their horse and become guests of the locals — is the symbol of the town's famous welcoming spirit."
+        testo: "Starting point: Piazza della Libertà. Free access, no booking needed. Suggested time: 30-40 minutes. Best time of day: early morning or late afternoon, when the alleys are less crowded."
       },
       {
         tipo: "titoletto",
-        testo: "2. Visit the Rocca Albornoziana"
+        testo: "2. Rocca Albornoziana"
       },
       {
         tipo: "paragrafo",
-        testo: "The Rocca dominates the village from above and today houses the University Residential Centre of Bertinoro. It is worth climbing up to admire the 360-degree view of the Romagna hills all the way to the Adriatic. On clear days you can even see the Alps."
+        testo: "5-10 minutes on foot from the centre, uphill. Free access to the outdoor areas. Suggested time: 20-30 minutes. On clear days the view reaches all the way to the Adriatic."
       },
       {
         tipo: "titoletto",
-        testo: "3. Take a wine tour among local wineries"
+        testo: "3. Wine tour at a local winery"
       },
       {
         tipo: "paragrafo",
-        testo: "The Bertinoro area is famous for Albana di Romagna DOCG — the first Italian white wine to receive the controlled and guaranteed designation of origin. Just 10 minutes by car you will find some of the most beautiful historic wineries in the region. Many offer tastings by appointment."
+        testo: "About 10 minutes by car from the centre. Booking recommended a few days ahead, mandatory during peak season weekends. Average visit with tasting: 1-2 hours."
       },
       {
         tipo: "titoletto",
-        testo: "4. Savour authentic Romagnola cuisine"
+        testo: "4. Lunch or dinner at a village trattoria"
       },
       {
         tipo: "paragrafo",
-        testo: "Piadina, tagliatelle al ragu, passatelli in broth, squacquerone cheese. Bertinoro has a handful of trattorias and osterias where locals have been eating for generations. Ask your host where the real Bertinoro residents go — avoid tourist traps."
+        testo: "In the historic centre, walkable from anywhere in Bertinoro. Booking not needed on weekdays, recommended on Saturday evenings. Budget guide: €25-35 per person for a full meal with wine."
       },
       {
         tipo: "titoletto",
-        testo: "5. Watch the sunset from the viewpoint"
+        testo: "5. Sunset at the viewpoint"
       },
       {
         tipo: "paragrafo",
-        testo: "The panoramic viewpoint of Bertinoro is one of the most beautiful in Romagna. At sunset, when the light gilds the hills and the Adriatic Sea shines on the horizon, you understand why this village is called the Balcony of Romagna. Bring a bottle of local Sangiovese and enjoy the show."
-      }
+        testo: "A short walk from the main square. No booking, no cost. Arrive 20-30 minutes before sunset to find a good spot during peak season weekends."
+      },
+      {
+        tipo: "titoletto",
+        testo: "How to fit the 5 stops into one day"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "Suggested sequence: morning in the historic centre and at the Rocca, early afternoon at a winery, late afternoon back in the village, evening dinner followed by the sunset at the viewpoint. In total, a full half day is enough to cover all 5 stops without rushing."
+      },
+      { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book Casa Cavour on Airbnb" },
+      { tipo: "link", testo: "https://en.casa-cavour.com/#blog", etichetta: "Discover more articles about the area" },
+      { tipo: "titoletto", testo: "Follow us on social media" },
+      { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+      { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
     ],
     attivo: true,
   },
@@ -857,47 +879,52 @@ export const posts = [
   },
   {
     id: "bertinoro-romantic-weekend",
-    titolo: "Why Bertinoro is the perfect place for a romantic weekend",
+    titolo: "Romantic weekend in Bertinoro: the 48-hour checklist",
     data: "2025-03-25",
-    categoria: "Inspiration",
-    sommario: "Golden hills, sunsets over the Adriatic, local wine and a design apartment just for the two of you. Discover why Bertinoro is the perfect romantic destination in Romagna.",
+    categoria: "Practical guide",
+    sommario: "What to book, how much budget to set aside, and how to plan the 48 hours of a romantic weekend in Bertinoro. The practical version, in bullet points, so nothing is left to chance.",
     contenuto: [
       {
         tipo: "paragrafo",
-        testo: "Are you looking for a romantic getaway away from the city chaos, but do not want to give up comfort and beauty? Bertinoro, the Balcony of Romagna, is the answer. A medieval village on the Romagna hills that combines extraordinary landscapes, excellent cuisine and a slow, authentic pace of life."
+        testo: "A romantic weekend in Bertinoro is easy to plan with a few decisions made in advance. Here is what to book, how much to set aside, and how to structure the two days."
       },
       {
         tipo: "titoletto",
-        testo: "An apartment all to yourselves"
+        testo: "What to book in advance"
       },
       {
         tipo: "paragrafo",
-        testo: "Unlike a hotel, an apartment like Casa Cavour gives you the freedom to live the village like true locals. Shopping at the morning market, cooking with fresh local produce, opening a bottle of Albana at sunset on the viewpoint. Intimacy and authenticity that no hotel can offer."
+        testo: "The accommodation, first of all: during peak weekends, spots in the historic centre fill up fast. A trattoria dinner for Saturday night, if you prefer not to improvise. A winery tasting, if it fits your plans: many require confirmation 24-48 hours ahead."
       },
       {
         tipo: "titoletto",
-        testo: "The most beautiful sunset in Romagna"
+        testo: "Budget guide for two nights"
       },
       {
         tipo: "paragrafo",
-        testo: "The panoramic viewpoint of Bertinoro offers one of the most spectacular sunsets in the region. When the sun sets behind the hills and the Adriatic Sea turns orange on the horizon, the moment becomes magical. Bring a glass of Sangiovese and enjoy the show together."
+        testo: "Accommodation: from €85 per night, current rates on Airbnb. Trattoria dinner: €25-35 per person. Winery tasting with visit: €15-25 per person. Breakfast and lunches, if self-catered with local market products, stay modest."
+      },
+      { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Current rates on Airbnb" },
+      {
+        tipo: "titoletto",
+        testo: "What to bring"
+      },
+      {
+        tipo: "paragrafo",
+        testo: "Comfortable shoes for the uphill lanes of the historic centre. A light jacket even in summer, evenings in the hills turn cool. A charged phone for the sunset at the viewpoint, the most photographed moment of the weekend."
       },
       {
         tipo: "titoletto",
-        testo: "Unforgettable dinners"
+        testo: "48-hour timeline"
       },
       {
         tipo: "paragrafo",
-        testo: "Romagnola cuisine is made to be shared. Hand-rolled tagliatelle al ragu, warm piadina with squacquerone and rocket, passatelli in broth, grilled pork ribs. The trattorias of Bertinoro and surroundings are places where time stands still and every meal becomes a memory."
+        testo: "Saturday morning: arrival and settling in, self check-in with no fixed hours. Early afternoon: stroll through the historic centre. Late afternoon: winery or free time. Evening: trattoria dinner followed by sunset at the viewpoint. Sunday morning: a second winery or a walk through the vineyards. Early afternoon: departure, with time for one last stroll through the square."
       },
-      {
-        tipo: "titoletto",
-        testo: "A wine tour among the vineyards"
-      },
-      {
-        tipo: "paragrafo",
-        testo: "Just 10 minutes from Bertinoro you will find some of the most characterful wineries in Romagna. An afternoon among the vines, tasting Albana DOCG and Sangiovese, is one of the most romantic ways to discover the region. Many wineries accept visits by appointment — ask us for the right contacts."
-      }
+      { tipo: "link", testo: "https://en.casa-cavour.com/#blog", etichetta: "Discover more articles about the area" },
+      { tipo: "titoletto", testo: "Follow us on social media" },
+      { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+      { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
     ],
     attivo: true,
   },
