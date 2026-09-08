@@ -49,24 +49,34 @@ function isBlogHomeLink(b) {
   return b.tipo === "link" && b.testo.includes("casa-cavour.com/#blog");
 }
 
-// posts.jsx contiene tipicamente due link verso #blog per articolo (uno prima
-// di "Leggi anche", uno subito dopo, quest'ultimo senza etichetta quindi
-// renderizzato come URL grezzo): risultato duplicato e poco leggibile sulla
-// pagina statica. Qui vengono rimossi entrambi e reinserito un solo link con
-// etichetta corretta, subito dopo il paragrafo di "Leggi anche" quando
-// presente, altrimenti in coda al contenuto.
+// I link "Read also" (1-2 per articolo, verso articoli realmente correlati,
+// con etichetta breve sull'argomento trattato) sono scritti a mano
+// direttamente in posts.jsx, subito dopo il paragrafo "Read also"/"Read
+// more". Questo script non li genera più: li lascia passare così come sono,
+// identici sia qui sia nel rendering React live.
+//
+// Rete di sicurezza: se un articolo non ha nessun link dopo "Read
+// also"/"Read more" (oggi non succede per nessuno dei 19, ma potrebbe
+// succedere per un futuro nuovo articolo), viene inserito un singolo
+// bottone "All articles" verso #blog. Qualunque link verso #blog scritto per
+// errore altrove nel contenuto viene comunque rimosso, per evitare doppioni
+// con questo fallback.
+const FALLBACK_ALL_ARTICLES = { tipo: "link", testo: `${SITE_URL}/#blog`, etichetta: "All articles" };
+
 function buildContenuto(post) {
   const filtered = post.contenuto.filter((b) => !isSocialBlock(b) && !isBlogHomeLink(b));
-  const linkBlogHome = { tipo: "link", testo: `${SITE_URL}/#blog`, etichetta: "Discover more articles about the territory" };
 
-  const idx = filtered.findIndex((b) => b.tipo === "titoletto" && b.testo.trim().toLowerCase() === "read also");
+  const idx = filtered.findIndex((b) => b.tipo === "titoletto" && ["read also", "read more"].includes(b.testo.trim().toLowerCase()));
   if (idx === -1) {
-    filtered.push(linkBlogHome);
+    filtered.push(FALLBACK_ALL_ARTICLES);
     return filtered;
   }
-  let insertAt = idx + 1;
-  if (filtered[insertAt] && filtered[insertAt].tipo === "paragrafo") insertAt++;
-  filtered.splice(insertAt, 0, linkBlogHome);
+  let cursor = idx + 1;
+  if (filtered[cursor] && filtered[cursor].tipo === "paragrafo") cursor++;
+  const haLinkCorrelati = filtered[cursor] && filtered[cursor].tipo === "link";
+  if (!haLinkCorrelati) {
+    filtered.splice(cursor, 0, FALLBACK_ALL_ARTICLES);
+  }
   return filtered;
 }
 
