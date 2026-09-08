@@ -516,7 +516,7 @@ function Blog() {
     const url = `https://en.casa-cavour.com/post/${slugify(post.id)}.html`;
     if (navigator.share) {
       try {
-        await navigator.share({ title: post.titolo, text: `${post.sommario}\n\n${url}`, url });
+        await navigator.share({ title: post.titolo, text: `${post.sommario}\n\n${url}` });
         return;
       } catch {
         return;
