@@ -248,7 +248,7 @@ ${bodyBlocks}
           // url included in "text" too: some clients (e.g. email apps) only
           // read the text field and ignore url, otherwise the link would not
           // end up in the message body.
-          var shareData = { title: title, text: text + "\\n\\n" + url, url: url };
+          var shareData = { title: title, text: text + "\\n\\n" + url };
           if (navigator.share) {
             try { await navigator.share(shareData); } catch (e) {}
             return;
