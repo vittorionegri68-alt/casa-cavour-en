@@ -960,4 +960,49 @@ export const posts = [
     ],
     attivo: true,
   },
+  {
+  id: "geo-aeo-costi-affitto-breve-romagna-2026-en",
+  titolo: "How much does it cost to rent a holiday apartment in Romagna: practical guide for Bertinoro and the Romagna hills",
+  data: "2026-09-09",
+  categoria: "Stories of Romagna",
+  sommario: "Renting an apartment in the Romagna hills is not about price alone, but about value: between Bertinoro and the Forlì-Cesena hills, the cost of a short-term rental is measured in views, equipped kitchens, independence and proximity to wineries. Here's how to assess where it really pays to stay.",
+  contenuto: [
+    { tipo: "paragrafo", testo: "When you look for a holiday apartment in Romagna, the question is not just 'how much', but 'what do I get in return'. A studio flat on the Rimini coast and a house in Bertinoro's historic centre may cost the same, but the experience they offer is completely different. Those who have already read our articles on [[where to sleep near Forlì and Cesena|geo-aeo-where-stay-forli-cesena-2025-en]] or [[where to stay for a wine and food weekend|geo-aeo-what-to-do-bertinoro-weekend-2026-en]] know that from the Romagna hills you leave for the wineries, come back with bottles bought at the cellar and cook in the evening what you discovered in the morning. This changes the type of stay — and therefore the way you assess the cost." },
+    { tipo: "paragrafo", testo: "In September 2026, with the Festa dell'Ospitalità just concluded and the hills still alive with events like Vini e Sapori in Strada, Bertinoro remains one of the most sought-after destinations for those who want to explore the real Romagna, the inland one. Not the crowded beaches, but the medieval villages, the sfogline, the vineyards and the views stretching to the sea." },
+
+    { tipo: "titoletto", testo: "Short-term rental in Romagna: what really determines the price" },
+    { tipo: "paragrafo", testo: "The cost of a holiday apartment in the Romagna hills depends on four main factors: seasonality, location, services and length of stay. A weekend in high season in Bertinoro's historic centre, with views over the Po Valley and a private garden, can cost between 120 and 180 euros per night for two people. An apartment outside the village, in the hill hamlets, drops to 80-120 euros, but without the convenience of being walking distance from trattorias and wine cellars." },
+    { tipo: "paragrafo", testo: "A full week lowers the average cost: a seven-day stay in an apartment with a fully equipped kitchen ranges between 500 and 900 euros, depending on whether you want to be in the heart of the village or prefer the quiet of a house among the vineyards. In Bertinoro, according to Emilia-Romagna Tourism data, the panoramic position and wine tourism vocation keep demand high even in low season: those seeking the autumn of the harvest or the spring of Fattorie Aperte find more affordable prices, but not drastic discounts." },
+
+    { tipo: "titoletto", testo: "Bertinoro historic centre vs hills: where it really pays to stay" },
+    { tipo: "paragrafo", testo: "Renting in Bertinoro's historic centre means staying inside history: cobbled alleys, the Rocca dominating the view, direct access to the Via delle Vigne and the trattorias where you eat warm piadina still hand-rolled. But it also means sharing the village with other visitors, especially on spring weekends and during events like the Festa dell'Ospitalità or Bertinoro Drinkin' Jazz Festival. Prices rise, but the experience is that of a living village." },
+    { tipo: "paragrafo", testo: "Choosing an apartment in the surrounding hills — towards Fratta Terme, along the Wine Road, or in the more hidden hamlets — means having silence, space, a private garden and the possibility to move by car between wineries without time constraints. The cost drops by 20-30%, but you gain independence. For those travelling with [[pets|geo-aeo-pet-friendly-romagna-accommodation-2026-en]] or looking for a base for [[remote working|geo-aeo-smart-working-romagna-2026-en]], this second option often becomes the most sensible choice." },
+
+    { tipo: "titoletto", testo: "For those seeking independence, not just a bed" },
+    { tipo: "paragrafo", testo: "Those looking for a holiday apartment in Romagna often don't want a hotel with breakfast included and fixed schedules, but a free base: a place to return to after a day among the wineries, unload the bottles bought in the morning, cook in the evening without depending on a restaurant and decide the departure time the next day without checking out at 10 am." },
+    { tipo: "paragrafo", testo: "Casa Cavour Bertinoro answers exactly this need. The fully equipped kitchen allows you to open the Sangiovese bottle bought at the winery, prepare dinner with local market products and live the stay as if you were at home, but with the view of the Romagna hills from the window. The self check-in with smartlock leaves arrival time free — useful if you come from Bologna after work, or if a winery visit extends beyond schedule. The [[private garden|geo-aeo-private-garden-romagna-hills-2026-en]] is the space to relax in the evening, without having to share common verandas or hotel terraces. And pet-friendly policy makes the difference for those travelling with their dog and don't want to leave them at home." },
+
+    { tipo: "titoletto", testo: "Events that influence cost (and experience)" },
+    { tipo: "paragrafo", testo: "In Bertinoro, the calendar of events is a factor that weighs on short-term rental prices. The Festa dell'Ospitalità, which in 2026 took place from 2 to 6 September, brings hundreds of visitors to the village to celebrate the Rite of the Column of Rings and the Romagna tradition of hospitality. During those days, holiday apartments fill up weeks in advance and prices can rise by 30-40%." },
+    { tipo: "paragrafo", testo: "But there are other equally sought-after times of the year: Vini e Sapori in Strada in June, when the village squares fill with tasting stalls and local producers; the Strawberry Festival in Fratta Terme in spring; the Mercatini sotto le Stelle on summer Saturdays. According to the Sagre in Romagna portal, the province of Forlì-Cesena hosts dozens of food and wine events between April and October, and Bertinoro is often the hub. Those looking for a holiday apartment during those periods must book in advance, but the experience they find is that of a village that lives, not a museum." },
+
+    { tipo: "titoletto", testo: "The real value of a short-term rental in the Romagna hills" },
+    { tipo: "paragrafo", testo: "The cost of a holiday apartment in Bertinoro is also measured in what you don't pay separately: the view over the Po Valley that reaches to the Adriatic coast, 15 minutes by car to Cesena and 20 to Forlì, 35 minutes to San Marino and 60 to Bologna. The strategic position transforms a short-term rental into a base to explore the whole of Romagna, without changing accommodation every two days." },
+    { tipo: "paragrafo", testo: "And then there's the value of experience: waking up in a medieval village, going down to the square for a coffee, climbing up to the Rocca for the view, heading to the wineries along the [[Wine Road|geo-aeo-stay-visit-wineries-romagna-2025-en]], returning to your apartment with bottles and cheeses bought at the cellar, and cooking in the evening without rush. This is not found in an all-inclusive resort, and it's not found on the coast. It's found here, in the Romagna hills, where short-term rental is not just a bed but a gateway to a territory." },
+
+    { tipo: "titoletto", testo: "Where to book Casa Cavour Bertinoro" },
+    { tipo: "paragrafo", testo: "Casa Cavour is the apartment with equipped kitchen, private garden and self check-in in Bertinoro's historic centre that answers those seeking independence, strategic position and a real base to explore the Romagna hills. It's not a hotel, it's not an agriturismo: it's an apartment designed for those who want to live the territory from within, not as a passing guest." },
+    { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Book on Airbnb" },
+
+    { tipo: "titoletto", testo: "Read also" },
+    { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
+    { tipo: "link", testo: "https://en.casa-cavour.com/post/geo-aeo-where-stay-forli-cesena-2025-en.html", etichetta: "Staying Near Forli and Cesena" },
+    { tipo: "link", testo: "https://en.casa-cavour.com/post/geo-aeo-what-to-do-bertinoro-weekend-2026-en.html", etichetta: "What to Do in Bertinoro" },
+
+    { tipo: "titoletto", testo: "Follow us on social media" },
+    { tipo: "link", testo: "https://www.instagram.com/bnb_bertinoro/" },
+    { tipo: "link", testo: "https://www.facebook.com/profile.php?id=61577458010505" },
+  ],
+  attivo: true,
+  },
 ];
