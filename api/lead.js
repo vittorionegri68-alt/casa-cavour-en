@@ -1,12 +1,14 @@
-// api/lead.js - Vercel serverless function (identico nei 3 repo aim-vns)
+// api/lead.js - Vercel serverless function
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
   const body = req.body || {};
+
+  // Honeypot: se compilato e' un bot. Rispondi ok senza fare nulla.
   if (body.website) {
-    return res.status(200).json({ ok: true }); // honeypot
+    return res.status(200).json({ ok: true });
   }
 
   const name = (body.name || "").toString().trim();
@@ -18,11 +20,12 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Email non valida" });
   }
 
+  // 1. Notifica Telegram
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (token && chatId) {
     const text =
-      "Nuovo lead dal sito aim-vns\n" +
+      "Nuovo lead dal sito\n" +
       "Nome: " + (name || "-") + "\n" +
       "Email: " + email + "\n" +
       "Messaggio: " + (message || "-") + "\n" +
@@ -36,6 +39,7 @@ export default async function handler(req, res) {
     } catch (e) { /* una notifica fallita non deve far fallire la risposta */ }
   }
 
+  // 2. Opzionale: append su Google Sheet via Apps Script Web App
   const sheetUrl = process.env.SHEET_WEBAPP_URL;
   if (sheetUrl) {
     try {
@@ -47,5 +51,6 @@ export default async function handler(req, res) {
     } catch (e) { /* idem */ }
   }
 
+  // Mai restituire i dati salvati: solo conferma.
   return res.status(200).json({ ok: true });
 }
