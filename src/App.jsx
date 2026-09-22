@@ -78,7 +78,7 @@ function Nav() {
     window.addEventListener("scroll", h);
     return () => window.removeEventListener("scroll", h);
   }, []);
-  const links = ["Apartment", "Location", "Experiences", "Reviews", "Blog", "Q&A"];
+  const links = ["Apartment", "Location", "Experiences", "Reviews", "Blog", "Q&A", "Contact"];
   const ids   = ["apartment", "location", "experiences", "reviews", "blog", "qa"];
   return (
     <nav style={{
