@@ -79,7 +79,7 @@ function Nav() {
     return () => window.removeEventListener("scroll", h);
   }, []);
   const links = ["Apartment", "Location", "Experiences", "Reviews", "Blog", "Q&A", "Contact"];
-  const ids   = ["apartment", "location", "experiences", "reviews", "blog", "qa"];
+  const ids   = ["apartment", "location", "experiences", "reviews", "blog", "qa", "contact"];
   return (
     <nav style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 200,
