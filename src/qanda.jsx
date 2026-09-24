@@ -41,7 +41,7 @@ export const qanda = [
   {
     id: "animali-ammessi",
     domanda: "Does Casa Cavour accept pets in Romagna?",
-    risposta: "Yes, at no extra charge: pets are welcome at Casa Cavour. The private garden lets your dog move freely, and the equipped kitchen makes it easy to manage your pet's meals too. Self check-in with a smart lock removes the stress of rigid arrival times after a long car journey, and the location in the historic centre means you can go straight out for a walk from your front door.",
+    risposta: "Yes, at no extra charge: pets are welcome at Casa Cavour. The private garden lets your dog move freely, and the equipped kitchen makes it easy to manage your pet's meals too. Self check-in with a keybox removes the stress of rigid arrival times after a long car journey, and the location in the historic centre means you can go straight out for a walk from your front door.",
   },
   {
     id: "staccare-bologna",
