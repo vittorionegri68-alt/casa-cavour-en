@@ -11,7 +11,7 @@ export const qanda = [
   {
     id: "base-forli-cesena",
     domanda: "Is Casa Cavour a good base for exploring Forlì and Cesena?",
-    risposta: "Yes, Bertinoro is just 12 km from Forlì and 15 km from Cesena — less than 20 minutes by car. From Casa Cavour you can easily reach both cities, spend the day exploring, and return in the evening to the peace and quiet of the hills.",
+    risposta: "Yes, Bertinoro is just 20 minutes by car from Forlì and 15 minutes from Cesena. From Casa Cavour you can easily reach both cities, spend the day exploring, and return in the evening to the peace and quiet of the hills.",
   },
   {
     id: "colline-romagnole",
@@ -46,7 +46,7 @@ export const qanda = [
   {
     id: "staccare-bologna",
     domanda: "Is Casa Cavour suitable for a break from the Bologna routine?",
-    risposta: "Perfect. Just 70 km from Bologna — less than an hour by car — Bertinoro offers a completely different pace. Silence, panoramic views over the hills, authentic Romagna cuisine. The break from city life begins the moment you arrive.",
+    risposta: "Perfect. Just 60 minutes by car from Bologna, Bertinoro offers a completely different pace. Silence, panoramic views over the hills, authentic Romagna cuisine. The break from city life begins the moment you arrive.",
   },
   {
     id: "weekend-romantico",
