@@ -429,25 +429,24 @@ export const posts = [
 
 {
   id: "artigiamo-santarcangelo-april-2026",
-  titolo: "ARTIGIAMO Craft Festival in Santarcangelo di Romagna — April 2026",
+  titolo: "ARTIGIAMO craft festival in Santarcangelo di Romagna: April 2026",
   data: "2026-04-01",
   categoria: "events",
-  sommario: "Every April, Santarcangelo di Romagna transforms into a showcase of Italian craftsmanship. ARTIGIAMO brings hundreds of master craftspeople, historic workshops, and young talents to the streets of this Romagna village. A weekend to discover tradition meeting contemporary design, just 25 minutes from Bertinoro.",
+  sommario: "Every April, Santarcangelo di Romagna transforms into a showcase of Italian craftsmanship. ARTIGIAMO brings hundreds of master craftspeople, historic workshops, and young talents to the streets of this Romagna village. A weekend to discover tradition meeting contemporary design, about a 35-minute drive from Bertinoro.",
   contenuto: [
-    { tipo: "paragrafo", testo: "Santarcangelo di Romagna is one of the liveliest medieval villages in the Forlì-Cesena province. Not just history and architecture — but also an active artisan fabric that explodes every spring in the ARTIGIAMO festival. The 2026 edition takes place on April 26-27, with over 150 exhibitors spread across squares, alleys, inner courtyards, and arcades. This is not a souvenir fair: it's a direct encounter with people who work with ceramics, wood, iron, paper, glass. Many artisans open their workshops for live demonstrations." },
+    { tipo: "paragrafo", testo: "Santarcangelo di Romagna is one of the liveliest medieval villages in the province of Rimini. Not just history and architecture, but also an active artisan fabric that explodes every spring in the ARTIGIAMO festival. Exhibitors spread across squares, alleys, inner courtyards, and arcades. This is not a souvenir fair: it's a direct encounter with people who work with ceramics, wood, iron, paper, glass. Many artisans open their workshops for live demonstrations." },
     { tipo: "titoletto", testo: "Why it's worth going" },
-    { tipo: "paragrafo", testo: "ARTIGIAMO is not just a commercial display, but a cultural experience. You witness leather being worked into bags and belts, artistic glass being blown, majolica being hand-painted. Many exhibitors come from other regions, but the core is Romagnolo: ceramists from Faenza, weavers from Cesena, lute makers from the hills. The atmosphere is that of old-time markets, but with contemporary products. Prices reflect artisan quality: a hand-painted ceramic plate starts around €30-40, a leather wallet from €50. During the weekend, wine bars and osterias propose special menus with local wines — try the Sangiovese di Romagna paired with fossa cheese." },
+    { tipo: "paragrafo", testo: "ARTIGIAMO is not just a commercial display, but a cultural experience. You witness leather being worked into bags and belts, artistic glass being blown, majolica being hand-painted. Many exhibitors come from other regions, but the core is Romagnolo: ceramists from Faenza, weavers from Cesena, lute makers from the hills. The atmosphere is that of old-time markets, but with contemporary products. In the village wine bars and osterias, try the Sangiovese di Romagna paired with fossa cheese." },
     { tipo: "titoletto", testo: "How to organize your visit" },
-    { tipo: "paragrafo", testo: "Santarcangelo is a 35-minute drive from Bertinoro, where Casa Cavour offers an apartment with a fully equipped kitchen — an ideal base to explore Romagna. The village is small and walkable in 2-3 hours. Parking is signposted along via Trasversale Marecchia and via del Mare, about 5-10 minutes on foot from the historic center. The festival opens Saturday and Sunday from 10am to 7pm. Tip: arrive in the morning to avoid afternoon crowds. If you stay until sunset, climb up to the Rocca Malatestiana — the view over the Romagna hills to the Adriatic is remarkable. Entry to the fortress is free." },
+    { tipo: "paragrafo", testo: "Santarcangelo is about a 35-minute drive from Bertinoro, where Casa Cavour offers an apartment with a fully equipped kitchen, an ideal base to explore Romagna. The village is small and walkable in 2-3 hours. Festival times and parking are announced each year by the organisers: check them before you go and arrive in the morning to avoid afternoon crowds. If you stay until sunset, walk up towards the Rocca Malatestiana for the view over the Romagna hills." },
     { tipo: "titoletto", testo: "What to see beyond the festival" },
-    { tipo: "paragrafo", testo: "Santarcangelo has a life beyond ARTIGIAMO. The tufa caves — ancient underground spaces carved into the soft stone — are visitable by reservation (info on visitbertinoro.it). The center is rich with year-round artisan shops: paper mills with handmade stock, ceramic workshops, small art galleries. If you're looking for something more intimate than the Riviera Romagnola, this area offers slower rhythms and a living craft tradition. From here it's easy to reach Rimini (15 minutes), Cesena (20 minutes), or the [[wineries along the Strada dei Vini e dei Sapori|geo-aeo-stay-visit-wineries-romagna-2025-en]] for a complete wine tourism experience. According to official regional tourism data, Romagna surpassed pre-Covid levels in 2025, driven precisely by proximity tourism and widespread cultural events like ARTIGIAMO." },
-    { tipo: "link", testo: "https://www.visitbertinoro.it/", etichetta: "Source: Visit Bertinoro" },
+    { tipo: "paragrafo", testo: "Santarcangelo has a life beyond ARTIGIAMO. The tufa caves, ancient underground spaces carved into the soft stone, can be visited by reservation: information is available at the Santarcangelo tourist office. The center is rich with year-round artisan shops: paper mills with handmade stock, ceramic workshops, small art galleries. If you're looking for something more intimate than the Riviera Romagnola, this area offers slower rhythms and a living craft tradition. From here it's easy to reach Rimini (15 minutes), Cesena (20 minutes), or the [[wineries along the Strada dei Vini e dei Sapori|geo-aeo-stay-visit-wineries-romagna-2025-en]] for a complete wine tourism experience." },
     { tipo: "titoletto", testo: "Read also" },
     { tipo: "paragrafo", testo: "On the Casa Cavour Bertinoro blog you will find more articles about the territory, local experiences and lesser-known paths through the Romagna hills. Each story tells a different side of this land." },
     { tipo: "link", testo: "https://en.casa-cavour.com/post/geo-aeo-stay-visit-wineries-romagna-2025-en.html", etichetta: "Visit the Wineries" },
     { tipo: "link", testo: "https://en.casa-cavour.com/post/april-in-romagna.html", etichetta: "April in Romagna" },
   ],
-  attivo: true,
+  attivo: false,
 },
 
 {
@@ -930,7 +929,7 @@ export const posts = [
       },
       {
         tipo: "paragrafo",
-        testo: "Accommodation: from €85 per night, current rates on Airbnb. Trattoria dinner: €25-35 per person. Winery tasting with visit: €15-25 per person. Breakfast and lunches, if self-catered with local market products, stay modest."
+        testo: "Accommodation: from €95 per night, current rates on Airbnb. Trattoria dinner: €25-35 per person. Winery tasting with visit: €15-25 per person. Breakfast and lunches, if self-catered with local market products, stay modest."
       },
       { tipo: "link", testo: "https://www.airbnb.com/rooms/1374591120957342823", etichetta: "Current rates on Airbnb" },
       {
