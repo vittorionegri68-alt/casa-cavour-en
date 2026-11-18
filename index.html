@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SEO meta tags -->
-    <meta name="description" content="Casa Cavour — Holiday apartment with kitchen in the historic centre of Bertinoro (FC). Ideal base for romantic weekends and wine tourism in Romagna. 15 minutes from Cesena." />
+    <meta name="description" content="Casa Cavour, holiday apartment with kitchen in central Bertinoro (FC), 15 minutes from Cesena. Base for romantic weekends and wine tourism in Romagna." />
     <meta name="keywords" content="holiday apartment Bertinoro, short rental Romagna hills, apartment kitchen Bertinoro, short term rental Forlì-Cesena, holiday home Romagna, romantic weekend Romagna hills, wine tourism Romagna wineries, Bertinoro rental, Romagna hills accommodation, base to explore Romagna, getaway near Bologna, Casa Cavour Bertinoro" />
 
     <!-- Favicon -->
@@ -359,7 +359,6 @@
     <noscript>
       <main>
         <article>
-          <h1>Casa Cavour — Holiday Apartment Bertinoro, Romagna Hills</h1>
           <p>Casa Cavour is a holiday apartment with fully equipped kitchen in the historic centre of Bertinoro, a medieval hilltop village in the Romagna hills of Forlì-Cesena province. Nicknamed the Balcony of Romagna for its panoramic views over the Po Valley and the Adriatic coast, it is the ideal base for couples and travellers exploring authentic Romagna: wineries, medieval villages, Sangiovese wine, Piadina Romagnola.</p>
           <p>Address: Via Cavour 44, Bertinoro (FC). 15 minutes from Cesena, 20 minutes from Forlì, 40 minutes from Rimini, 35 minutes from San Marino, 60 minutes from Bologna. 100 sqm apartment, up to 4 guests. Check-in 4:00 PM, check-out 10:00 AM. From €95 per night, <a href="https://www.airbnb.com/rooms/1374591120957342823" target="_blank" rel="noopener noreferrer">current rates on Airbnb</a>.</p>
           <p>National Identification Code (CIN): IT040003C28FEZ8O7L</p>
@@ -972,7 +971,10 @@
       </main>
     </noscript>
 
-    <div id="root"></div>
+    <!-- H1 della home per i crawler che non eseguono JavaScript (Bingbot, OAI-SearchBot).
+         Sta dentro #root, quindi React lo sostituisce al mount: nessun H1 duplicato
+         e nessun cambiamento visivo per gli utenti. -->
+    <div id="root"><h1 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0">Casa Cavour: Holiday Apartment in Bertinoro, Romagna Hills</h1></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
