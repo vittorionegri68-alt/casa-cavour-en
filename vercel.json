@@ -50,6 +50,11 @@
       "source": "/post/artigiamo-santarcangelo-april-2026.html",
       "destination": "/post/geo-aeo-what-to-do-bertinoro-weekend-2026-en.html",
       "permanent": true
+    },
+    {
+      "source": "/sitemap-EN.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
     }
   ]
 }
