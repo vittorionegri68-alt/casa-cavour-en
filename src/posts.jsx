@@ -287,7 +287,7 @@ export const posts = [
   titolo: "Holiday apartment with private garden in the Romagna hills: why Bertinoro is the perfect base",
   data: "2026-04-27",
   categoria: "Stories of Romagna",
-  sommario: "The Romagna hills reveal themselves slowly — winery by winery, hilltop village by hilltop village. To truly experience them, you need the right base: a holiday apartment with a private garden in Bertinoro, where the evenings are yours and the mornings smell of Sangiovese.",
+  sommario: "The Romagna hills reveal themselves slowly, winery by winery, hilltop village by hilltop village. To truly experience them, you need the right base: a holiday apartment with a private garden in Bertinoro, where the evenings are yours and the mornings smell of Sangiovese.",
   contenuto: [
     { tipo: "paragrafo", testo: "If you've read our previous articles on [[Romagna wine tourism|geo-aeo-wine-tourism-romagna-where-stay-2026-en]] or the [[perfect romantic weekend in the hills|geo-aeo-romantic-weekend-romagna-hills-2026-en]], you already know that this landscape rewards those who slow down. The roads between Bertinoro and Cesena are lined with vineyards, medieval towers, and trattorias that have been feeding travellers for generations. Choosing where to stay in the Romagna hills is not a minor decision — it shapes everything that follows." },
     { tipo: "paragrafo", testo: "A holiday apartment with a private garden changes the rhythm of a stay in ways that are hard to explain until you've experienced them. It's where the morning coffee becomes a ritual. Where your dog runs free after a long drive. Where a bottle of Albana DOCG stretches naturally into the evening, without the need to rush anywhere." },
@@ -859,7 +859,7 @@ export const posts = [
     titolo: "Short rentals in Romagna: what to see around Cesena",
     data: "2025-03-18",
     categoria: "The region",
-    sommario: "Choosing a short rental near Cesena means having access to the sea, hills, medieval villages and great food — all within easy driving distance. Here is our guide.",
+    sommario: "Choosing a short rental near Cesena means having access to the sea, hills, medieval villages and great food, all within easy driving distance. Here is our guide.",
     contenuto: [
       {
         tipo: "paragrafo",

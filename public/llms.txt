@@ -1,6 +1,6 @@
 # Casa Cavour Bertinoro
 
-> Holiday apartment with fully equipped kitchen in the historic centre of Bertinoro, Romagna hills (FC). The Balcony of Romagna — ideal base for romantic weekends, wine tourism and authentic stays in Romagna.
+> Holiday apartment with fully equipped kitchen in the historic centre of Bertinoro, Romagna hills (FC). The Balcony of Romagna, ideal base for romantic weekends, wine tourism and authentic stays in Romagna.
 
 ## Property
 
@@ -37,17 +37,19 @@
 - Dedicated workspace with WiFi
 - Self check-in with a keybox
 - Air conditioning and heating
-- Up to 4 guests — check-in 4:00 PM, check-out 10:00 AM
+- Up to 4 guests, check-in 4:00 PM, check-out 10:00 AM
 - CIN: IT040003C28FEZ8O7L
 
 ## AI Permissions
 
 This site authorises access by AI crawlers for indexing and citation.
 
-User-agent: GPTBot — allowed
-User-agent: OAI-SearchBot — allowed
-User-agent: ClaudeBot — allowed
-User-agent: anthropic-ai — allowed
-User-agent: PerplexityBot — allowed
-User-agent: Bingbot — allowed
-User-agent: CCBot — allowed
+User-agent: GPTBot - allowed
+User-agent: OAI-SearchBot - allowed
+User-agent: ClaudeBot - allowed
+User-agent: Claude-SearchBot - allowed
+User-agent: Claude-User - allowed
+User-agent: PerplexityBot - allowed
+User-agent: Perplexity-User - allowed
+User-agent: Bingbot - allowed
+User-agent: CCBot - allowed
